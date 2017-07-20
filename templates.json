@@ -271,7 +271,8 @@
     "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
     "image": "camunda-ci-sqlserver:2008",
     "ports": [
-      "1433/tcp"
+      "1433/tcp",
+      "5900/tcp"
     ],
     "privileged": true,
     "registry": "registry.camunda.com",
@@ -286,7 +287,8 @@
     "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
     "image": "camunda-ci-sqlserver:2012",
     "ports": [
-      "1433/tcp"
+      "1433/tcp",
+      "5900/tcp"
     ],
     "privileged": true,
     "registry": "registry.camunda.com",
@@ -301,7 +303,8 @@
     "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
     "image": "camunda-ci-sqlserver:2014",
     "ports": [
-      "1433/tcp"
+      "1433/tcp",
+      "5900/tcp"
     ],
     "privileged": true,
     "registry": "registry.camunda.com",
@@ -374,9 +377,9 @@
   },
 
   {
-    "title": "CentoOS 7.3",
+    "title": "CentOS 7.3",
     "description": "Camunda CI CentOS base image",
-    "categories": ["server"],
+    "categories": ["os"],
     "platform": "linux",
     "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
     "image": "camunda-ci-base-centos:latest",
@@ -390,7 +393,7 @@
   {
     "title": "Ubuntu",
     "description": "Camunda CI Ubuntu base image",
-    "categories": ["server"],
+    "categories": ["os"],
     "platform": "linux",
     "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
     "image": "camunda-ci-base-ubuntu:latest",
@@ -399,6 +402,130 @@
     ],
     "registry": "registry.camunda.com",
     "command": "/usr/local/bin/start-container.sh",
+    "restart_policy": "on-failure"
+  },
+  {
+    "title": "Windows Server 2012R2",
+    "description": "Microsoft Windows Server 2012R2 running Qemu in Docker with VNC on port 5900",
+    "categories": ["database"],
+    "platform": "windows",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda-ci-sqlserver:2014",
+    "ports": [
+      "5900/tcp"
+    ],
+    "privileged": true,
+    "registry": "registry.camunda.com",
+    "command": "/usr/local/bin/start-qemu.sh",
+    "restart_policy": "on-failure"
+  },
+
+  {
+    "title": "Camunda BPM SNAPSHOT Tomcat",
+    "description": "Camunda BPM platform latest snapshot running on Tomcat",
+    "categories": ["camunda", "camunda tomcat"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda/camunda-bpm-platform:tomcat-SNAPSHOT",
+    "ports": [
+      "8080/tcp"
+    ],
+    "restart_policy": "on-failure"
+  },
+  {
+    "title": "Camunda BPM LATEST Tomcat",
+    "description": "Camunda BPM platform latest official release running on Tomcat",
+    "categories": ["camunda", "camunda tomcat"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda/camunda-bpm-platform:tomcat-latest",
+    "ports": [
+      "8080/tcp"
+    ],
+    "restart_policy": "on-failure"
+  },
+  {
+    "title": "Camunda BPM 7.7.0 Tomcat",
+    "description": "Camunda BPM platform 7.7.0 running on Tomcat",
+    "categories": ["camunda", "camunda tomcat"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda/camunda-bpm-platform:tomcat-7.7.0",
+    "ports": [
+      "8080/tcp"
+    ],
+    "restart_policy": "on-failure"
+  },
+  {
+    "title": "Camunda BPM 7.6.0 Tomcat",
+    "description": "Camunda BPM platform 7.6.0 running on Tomcat",
+    "categories": ["camunda", "camunda tomcat"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda/camunda-bpm-platform:tomcat-7.6.0",
+    "ports": [
+      "8080/tcp"
+    ],
+    "restart_policy": "on-failure"
+  },
+  {
+    "title": "Camunda BPM 7.5.0 Tomcat",
+    "description": "Camunda BPM platform 7.5.0 running on Tomcat",
+    "categories": ["camunda", "camunda tomcat"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda/camunda-bpm-platform:tomcat-7.5.0",
+    "ports": [
+      "8080/tcp"
+    ],
+    "restart_policy": "on-failure"
+  },
+  {
+    "title": "Camunda BPM 7.4.0 Tomcat",
+    "description": "Camunda BPM platform 7.4.0 running on Tomcat",
+    "categories": ["camunda", "camunda tomcat"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda/camunda-bpm-platform:tomcat-7.4.0",
+    "ports": [
+      "8080/tcp"
+    ],
+    "restart_policy": "on-failure"
+  },
+  {
+    "title": "Camunda BPM 7.3.0 Tomcat",
+    "description": "Camunda BPM platform 7.3.0 running on Tomcat",
+    "categories": ["camunda", "camunda tomcat"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda/camunda-bpm-platform:tomcat-7.3.0",
+    "ports": [
+      "8080/tcp"
+    ],
+    "restart_policy": "on-failure"
+  },
+  {
+    "title": "Camunda BPM 7.2.0 Tomcat",
+    "description": "Camunda BPM platform 7.2.0 running on Tomcat",
+    "categories": ["camunda", "camunda tomcat"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda/camunda-bpm-platform:tomcat-7.2.0",
+    "ports": [
+      "8080/tcp"
+    ],
+    "restart_policy": "on-failure"
+  },
+  {
+    "title": "Camunda BPM 7.1.0 Tomcat",
+    "description": "Camunda BPM platform 7.1.0 running on Tomcat",
+    "categories": ["camunda", "camunda tomcat"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda/camunda-bpm-platform:tomcat-7.1.0",
+    "ports": [
+      "8080/tcp"
+    ],
     "restart_policy": "on-failure"
   }
 ]
