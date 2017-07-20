@@ -85,7 +85,7 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://cloudinovasi.id/assets/img/logos/mariadb.png",
-    "image": "camunda-docker-compose:latest",
+    "image": "camunda-ci-mariadb:galera",
     "ports": [
       "3306/tcp",
       "22/tcp"
@@ -306,6 +306,99 @@
     "privileged": true,
     "registry": "registry.camunda.com",
     "command": "/usr/local/bin/start-qemu.sh",
+    "restart_policy": "on-failure"
+  },
+
+  {
+    "title": "WebLogic 12R2",
+    "description": "Oracle WebLogic Application Server 12R2",
+    "categories": ["server"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda-ci-weblogic:12R2",
+    "ports": [
+      "7001/tcp"
+    ],
+    "registry": "registry.camunda.com",
+    "command": "/usr/local/bin/start-container.sh",
+    "restart_policy": "on-failure"
+  },
+
+  {
+    "title": "WebSphere 9.0",
+    "description": "IBM WebSphere Application Server 9.0 with PostgreSQL 9.1",
+    "categories": ["server"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda-ci-websphere:9.0-postgresql-9.1",
+    "ports": [
+      "5432/tcp",
+      "9060/tcp",
+      "9080/tcp"
+    ],
+    "registry": "registry.camunda.com",
+    "command": "/usr/local/bin/start-container.sh",
+    "restart_policy": "on-failure"
+  },
+  {
+    "title": "WebSphere 8.5",
+    "description": "IBM WebSphere Application Server 8.5 with PostgreSQL 9.1",
+    "categories": ["server"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda-ci-websphere:8.5-postgresql-9.1",
+    "ports": [
+      "5432/tcp",
+      "9060/tcp",
+      "9080/tcp"
+    ],
+    "registry": "registry.camunda.com",
+    "command": "/usr/local/bin/start-container.sh",
+    "restart_policy": "on-failure"
+  },
+  {
+    "title": "WebSphere 8.0",
+    "description": "IBM WebSphere Application Server 8.0 with PostgreSQL 9.1",
+    "categories": ["server"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda-ci-websphere:8.0-postgresql-9.1",
+    "ports": [
+      "5432/tcp",
+      "9060/tcp",
+      "9080/tcp"
+    ],
+    "registry": "registry.camunda.com",
+    "command": "/usr/local/bin/start-container.sh",
+    "restart_policy": "on-failure"
+  },
+
+  {
+    "title": "CentoOS 7.3",
+    "description": "Camunda CI CentOS base image",
+    "categories": ["server"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda-ci-base-centos:latest",
+    "ports": [
+      "22/tcp"
+    ],
+    "registry": "registry.camunda.com",
+    "command": "/usr/local/bin/start-container.sh",
+    "restart_policy": "on-failure"
+  },
+  {
+    "title": "Ubuntu",
+    "description": "Camunda CI Ubuntu base image",
+    "categories": ["server"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda-ci-base-ubuntu:latest",
+    "ports": [
+      "22/tcp"
+    ],
+    "registry": "registry.camunda.com",
+    "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   }
 ]
