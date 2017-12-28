@@ -445,6 +445,18 @@
     "restart_policy": "on-failure"
   },
   {
+    "title": "Camunda BPM 7.8.0 Tomcat",
+    "description": "Camunda BPM platform 7.8.0 running on Tomcat",
+    "categories": ["camunda", "camunda tomcat"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda/camunda-bpm-platform:tomcat-7.8.0",
+    "ports": [
+      "8080/tcp"
+    ],
+    "restart_policy": "on-failure"
+  },
+  {
     "title": "Camunda BPM 7.7.0 Tomcat",
     "description": "Camunda BPM platform 7.7.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
