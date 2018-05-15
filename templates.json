@@ -433,6 +433,18 @@
     "restart_policy": "on-failure"
   },
   {
+    "title": "Camunda BPM EE 7.9.0-alpha4 Tomcat",
+    "description": "Camunda BPM platform EE 7.9.0-alpha4 running on Tomcat",
+    "categories": ["camunda ee", "camunda tomcat"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "registry.camunda.cloud/camunda-bpm-platform-ee:tomcat-7.9.0-alpha4",
+    "ports": [
+      "8080/tcp"
+    ],
+    "restart_policy": "on-failure"
+  },
+  {
     "title": "Camunda BPM LATEST Tomcat",
     "description": "Camunda BPM platform latest official release running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
