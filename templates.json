@@ -75,6 +75,12 @@
       "3306/tcp",
       "22/tcp"
     ],
+    "env": [
+      {
+        "name": "TRANSACTION_ISOLATION_LEVEL",
+        "label": "READ-COMMITTED"
+      }
+    ],
     "registry": "registry.camunda.com",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
@@ -106,6 +112,12 @@
       "3306/tcp",
       "22/tcp"
     ],
+    "env": [
+      {
+        "name": "TRANSACTION_ISOLATION_LEVEL",
+        "label": "READ-COMMITTED"
+      }
+    ],
     "registry": "registry.camunda.com",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
@@ -120,6 +132,12 @@
     "ports": [
       "3306/tcp",
       "22/tcp"
+    ],
+    "env": [
+      {
+        "name": "TRANSACTION_ISOLATION_LEVEL",
+        "label": "READ-COMMITTED"
+      }
     ],
     "registry": "registry.camunda.com",
     "command": "/usr/local/bin/start-container.sh",
@@ -136,6 +154,12 @@
       "3306/tcp",
       "22/tcp"
     ],
+    "env": [
+      {
+        "name": "TRANSACTION_ISOLATION_LEVEL",
+        "label": "READ-COMMITTED"
+      }
+    ],
     "registry": "registry.camunda.com",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
@@ -150,6 +174,12 @@
     "ports": [
       "3306/tcp",
       "22/tcp"
+    ],
+    "env": [
+      {
+        "name": "TRANSACTION_ISOLATION_LEVEL",
+        "label": "READ-COMMITTED"
+      }
     ],
     "registry": "registry.camunda.com",
     "command": "/usr/local/bin/start-container.sh",
