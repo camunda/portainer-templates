@@ -358,6 +358,37 @@
   },
 
   {
+    "title": "WebLogic 12R2 + PostgreSQL 9.4",
+    "description": "Oracle WebLogic Application Server 12R2 + PostgreSQL 9.4",
+    "categories": ["server"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda-ci-weblogic:12R2-postgresql-9.4",
+    "ports": [
+      "7001/tcp",
+      "5432/tcp"
+    ],
+    "registry": "registry.camunda.com",
+    "command": "/usr/local/bin/start-container.sh",
+    "restart_policy": "on-failure",
+    "env": [
+      {
+         "name": "profiles",
+         "label": "Maven profiles",
+         "set": "wls,wls12-docker,postgresql"
+        },
+        {
+          "name": "version",
+          "label": "Camunda version"
+        },
+        {
+          "name": "nexus_pass",
+          "label": "Nexus password"
+        }
+    ]
+  },
+
+  {
     "title": "WebLogic 12R2 + Oracle 11",
     "description": "Oracle WebLogic Application Server 12R2 + Oracle 11",
     "categories": ["server"],
