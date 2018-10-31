@@ -397,7 +397,7 @@
     "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
     "image": "camunda-ci-websphere:8.5-db2-9.7",
     "ports": [
-      "5432/tcp",
+      "50000/tcp",
       "9060/tcp",
       "9080/tcp"
     ],
@@ -407,8 +407,8 @@
 	"env": [
 		{
 			"name": "profiles",
-			"default": "was85,db2,db2-97",
-			"preset": true
+			"label": "Maven profiles"
+			"default": "was85,db2,db2-97"
 		}
 	]
   },
