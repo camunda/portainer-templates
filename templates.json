@@ -390,6 +390,29 @@
     "restart_policy": "on-failure"
   },
   {
+    "title": "WebSphere 8.5 + db2 9.7",
+    "description": "IBM WebSphere Application Server 8.5 with db2 9.7",
+    "categories": ["server"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda-ci-websphere:8.5-db2-9.7",
+    "ports": [
+      "5432/tcp",
+      "9060/tcp",
+      "9080/tcp"
+    ],
+    "registry": "registry.camunda.com",
+    "command": "/usr/local/bin/start-container.sh",
+    "restart_policy": "on-failure",
+	"env": [
+		{
+			"name": "profiles",
+			"default": "was85,db2,db2-97",
+			"preset": true
+		}
+	]
+  },
+  {
     "title": "WebSphere 8.0",
     "description": "IBM WebSphere Application Server 8.0 with PostgreSQL 9.1",
     "categories": ["server"],
