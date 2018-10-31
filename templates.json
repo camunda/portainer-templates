@@ -407,8 +407,8 @@
 	"env": [
 		{
 			"name": "profiles",
-			"label": "Maven profiles"
-			"default": "was85,db2,db2-97"
+			"label": "Maven profiles",
+			"set": "was85,db2,db2-97"
 		}
 	]
   },
