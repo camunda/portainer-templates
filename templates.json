@@ -410,6 +410,14 @@
 			"name": "profiles",
 			"label": "Maven profiles",
 			"set": "was85,db2,db2-97"
+		},
+		{
+			"name": "version",
+			"label": "Camunda version"
+		},
+		{
+			"name": "nexus_pass",
+			"label": "Nexus password"
 		}
 	]
   },
