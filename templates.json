@@ -358,6 +358,37 @@
   },
 
   {
+    "title": "WebLogic 12R2 + Oracle 11",
+    "description": "Oracle WebLogic Application Server 12R2 + Oracle 11",
+    "categories": ["server"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda-ci-weblogic:12R2-oracle-11",
+    "ports": [
+      "7001/tcp",
+      "1521/tcp"
+    ],
+    "registry": "registry.camunda.com",
+    "command": "/usr/local/bin/start-container.sh",
+    "restart_policy": "on-failure",
+    "env": [
+      {
+         "name": "profiles",
+         "label": "Maven profiles",
+         "set": "wls,wls12-docker,oracle,oracle-11"
+        },
+        {
+          "name": "version",
+          "label": "Camunda version"
+        },
+        {
+          "name": "nexus_pass",
+          "label": "Nexus password"
+        }
+    ]
+  },
+
+  {
     "title": "WebSphere 9.0",
     "description": "IBM WebSphere Application Server 9.0 with PostgreSQL 9.1",
     "categories": ["server"],
@@ -395,31 +426,31 @@
     "categories": ["server"],
     "platform": "linux",
     "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
-    "image": "camunda-ci-websphere:8.5-db2-9.7",	
+    "image": "camunda-ci-websphere:8.5-db2-9.7",
     "ports": [
       "50000/tcp",
       "9060/tcp",
       "9080/tcp"
     ],
-	"privileged": true,
+    "privileged": true,
     "registry": "registry.camunda.com",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure",
-	"env": [
-		{
-			"name": "profiles",
-			"label": "Maven profiles",
-			"set": "was85,db2,db2-97"
-		},
-		{
-			"name": "version",
-			"label": "Camunda version"
-		},
-		{
-			"name": "nexus_pass",
-			"label": "Nexus password"
-		}
-	]
+    "env": [
+      {
+         "name": "profiles",
+         "label": "Maven profiles",
+         "set": "was85,db2,db2-97"
+        },
+        {
+          "name": "version",
+          "label": "Camunda version"
+        },
+        {
+          "name": "nexus_pass",
+          "label": "Nexus password"
+        }
+    ]
   },
   {
     "title": "WebSphere 8.0",
