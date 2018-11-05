@@ -389,12 +389,12 @@
   },
 
   {
-    "title": "WebLogic 12R2 + Oracle 11",
-    "description": "Oracle WebLogic Application Server 12R2 + Oracle 11",
+    "title": "WebLogic 12R2 + Oracle 12",
+    "description": "Oracle WebLogic Application Server 12R2 + Oracle 12",
     "categories": ["server"],
     "platform": "linux",
     "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
-    "image": "camunda-ci-weblogic:12R2-oracle-11",
+    "image": "camunda-ci-weblogic:12R2-oracle-12",
     "ports": [
       "7001/tcp",
       "1521/tcp"
@@ -406,7 +406,7 @@
       {
          "name": "profiles",
          "label": "Maven profiles",
-         "set": "wls,wls12-docker,oracle,oracle-11"
+         "set": "wls,wls12-docker,oracle,oracle-12"
         },
         {
           "name": "version",
@@ -434,6 +434,38 @@
     "registry": "registry.camunda.com",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
+  },
+  {
+    "title": "WebSphere 9.0 + db2 10.5",
+    "description": "IBM WebSphere Application Server 9.0 + db2 10.5",
+    "categories": ["server"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda-ci-websphere:9.0-db2-10.5",
+    "ports": [
+      "50000/tcp",
+      "9060/tcp",
+      "9080/tcp"
+    ],
+    "privileged": true,
+    "registry": "registry.camunda.com",
+    "command": "/usr/local/bin/start-container.sh",
+    "restart_policy": "on-failure"
+    "env": [
+      {
+         "name": "profiles",
+         "label": "Maven profiles",
+         "set": "was90,db2,db2-10.5"
+        },
+        {
+          "name": "version",
+          "label": "Camunda version"
+        },
+        {
+          "name": "nexus_pass",
+          "label": "Nexus password"
+        }
+    ]
   },
   {
     "title": "WebSphere 8.5",
