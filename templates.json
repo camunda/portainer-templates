@@ -450,7 +450,7 @@
     "privileged": true,
     "registry": "registry.camunda.com",
     "command": "/usr/local/bin/start-container.sh",
-    "restart_policy": "on-failure"
+    "restart_policy": "on-failure",
     "env": [
       {
          "name": "profiles",
