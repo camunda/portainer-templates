@@ -484,6 +484,22 @@
     "restart_policy": "on-failure"
   },
   {
+    "title": "WebSphere 8.5 - JDK 7",
+    "description": "IBM WebSphere Application Server 8.5 (JDK 7) with PostgreSQL 9.1",
+    "categories": ["server"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "image": "camunda-ci-websphere:8.5-postgresql-9.1",
+    "ports": [
+      "5432/tcp",
+      "9060/tcp",
+      "9080/tcp"
+    ],
+    "registry": "registry.camunda.com",
+    "command": "/usr/local/bin/switch-2-jdk7.sh && /usr/local/bin/start-container.sh",
+    "restart_policy": "on-failure"
+  },
+  {
     "title": "WebSphere 8.5 + db2 9.7",
     "description": "IBM WebSphere Application Server 8.5 with db2 9.7",
     "categories": ["server"],
