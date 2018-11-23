@@ -489,13 +489,13 @@
     "categories": ["server"],
     "platform": "linux",
     "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
-    "image": "camunda-ci-websphere:8.5-postgresql-9.1",
+    "image": "websphere:8.5v0.1.0",
     "ports": [
       "5432/tcp",
       "9060/tcp",
       "9080/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "gcr.io-ci",
     "command": "/usr/local/bin/switch-2-jdk7.sh && /usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
