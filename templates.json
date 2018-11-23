@@ -485,7 +485,7 @@
   },
   {
     "title": "WebSphere 8.5 - JDK 7",
-    "description": "IBM WebSphere Application Server 8.5 (JDK 7) with PostgreSQL 9.1",
+    "description": "Run /usr/local/bin/switch-2-jdk7.sh before starting WebSphere.",
     "categories": ["server"],
     "platform": "linux",
     "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
@@ -495,8 +495,7 @@
       "9060/tcp",
       "9080/tcp"
     ],
-    "registry": "gcr.io-ci",
-    "command": "/usr/local/bin/switch-2-jdk7.sh && /usr/local/bin/start-container.sh",
+    "registry": "gcr.io/ci-30-162810",
     "restart_policy": "on-failure"
   },
   {
