@@ -4,7 +4,7 @@
     "description": "IBM DB2 v9.7 LUW",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/registry.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-db2:9.7",
     "ports": [
       "50000/tcp",
@@ -20,7 +20,7 @@
     "description": "IBM DB2 v10.1 LUW",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/registry.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-db2:10.1",
     "ports": [
       "50000/tcp",
@@ -36,7 +36,7 @@
     "description": "IBM DB2 v10.5 LUW",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/registry.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-db2:10.5",
     "ports": [
       "50000/tcp",
@@ -52,7 +52,7 @@
     "description": "IBM DB2 v11.1 LUW",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/registry.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-db2:11.1",
     "ports": [
       "50000/tcp",
@@ -69,7 +69,7 @@
     "description": "MariaDB v10.0",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/mariadb.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mariadb.png",
     "image": "camunda-ci-mariadb:10.0",
     "ports": [
       "3306/tcp",
@@ -90,7 +90,7 @@
     "description": "MariaDB Galera Cluster v10.1",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/mariadb.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mariadb.png",
     "image": "camunda-ci-mariadb:galera",
     "ports": [
       "3306/tcp",
@@ -106,7 +106,7 @@
     "description": "MySQL v5.7",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/mysql.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
     "image": "camunda-ci-mysql:5.7",
     "ports": [
       "3306/tcp",
@@ -127,7 +127,7 @@
     "description": "MySQL v5.6",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/mysql.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
     "image": "camunda-ci-mysql:5.6",
     "ports": [
       "3306/tcp",
@@ -148,7 +148,7 @@
     "description": "MySQL v5.5",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/mysql.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
     "image": "camunda-ci-mysql:5.5",
     "ports": [
       "3306/tcp",
@@ -169,7 +169,7 @@
     "description": "MySQL v5.1",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/mysql.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
     "image": "camunda-ci-mysql:5.1",
     "ports": [
       "3306/tcp",
@@ -191,7 +191,7 @@
     "description": "Oracle v12c Enterprise Edition",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/mysql.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-oracle:12",
     "ports": [
       "1521/tcp",
@@ -206,7 +206,7 @@
     "description": "Oracle v11g Express Edition",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/mysql.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-oracle:11",
     "ports": [
       "1521/tcp",
@@ -221,7 +221,7 @@
     "description": "Oracle v10g Express Edition",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/mysql.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-oracle:10",
     "ports": [
       "1521/tcp",
@@ -237,7 +237,7 @@
     "description": "PostgreSQL v9.6",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/postgres.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
     "image": "camunda-ci-postgresql:9.6",
     "ports": [
       "5432/tcp",
@@ -252,7 +252,7 @@
     "description": "PostgreSQL v9.4",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/postgres.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
     "image": "camunda-ci-postgresql:9.4",
     "ports": [
       "5432/tcp",
@@ -267,7 +267,7 @@
     "description": "PostgreSQL v9.3",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/postgres.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
     "image": "camunda-ci-postgresql:9.3",
     "ports": [
       "5432/tcp",
@@ -282,7 +282,7 @@
     "description": "PostgreSQL v9.1",
     "categories": ["database"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/postgres.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
     "image": "camunda-ci-postgresql:9.1",
     "ports": [
       "5432/tcp",
@@ -298,7 +298,7 @@
     "description": "Microsoft SqlServer Express 2008 for Windows running Qemu in Docker",
     "categories": ["database"],
     "platform": "windows",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
     "image": "camunda-ci-sqlserver:2008",
     "ports": [
       "1433/tcp",
@@ -314,7 +314,7 @@
     "description": "Microsoft SqlServer Express 2012 for Windows running Qemu in Docker",
     "categories": ["database"],
     "platform": "windows",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
     "image": "camunda-ci-sqlserver:2012",
     "ports": [
       "1433/tcp",
@@ -330,7 +330,7 @@
     "description": "Microsoft SqlServer Express 2014 for Windows running Qemu in Docker",
     "categories": ["database"],
     "platform": "windows",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
     "image": "camunda-ci-sqlserver:2014",
     "ports": [
       "1433/tcp",
@@ -347,7 +347,7 @@
     "description": "Oracle WebLogic Application Server 12R2",
     "categories": ["server"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-weblogic:12R2",
     "ports": [
       "7001/tcp"
@@ -362,7 +362,7 @@
     "description": "Oracle WebLogic Application Server 12R2 + PostgreSQL 9.4",
     "categories": ["server"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-weblogic:12R2-postgresql-9.4",
     "ports": [
       "7001/tcp",
@@ -393,7 +393,7 @@
     "description": "Oracle WebLogic Application Server 12R2 + Oracle 12",
     "categories": ["server"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-weblogic:12R2-oracle-12",
     "ports": [
       "7001/tcp",
@@ -424,7 +424,7 @@
     "description": "IBM WebSphere Application Server 9.0 with PostgreSQL 9.1",
     "categories": ["server"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-websphere:9.0-postgresql-9.1",
     "ports": [
       "5432/tcp",
@@ -440,7 +440,7 @@
     "description": "IBM WebSphere Application Server 9.0 + db2 10.5",
     "categories": ["server"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-websphere:9.0-db2-10.5",
     "ports": [
       "50000/tcp",
@@ -472,7 +472,7 @@
     "description": "IBM WebSphere Application Server 8.5 with PostgreSQL 9.1",
     "categories": ["server"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-websphere:8.5-postgresql-9.1",
     "ports": [
       "5432/tcp",
@@ -488,7 +488,7 @@
     "description": "Run /usr/local/bin/switch-2-jdk7.sh before starting WebSphere.",
     "categories": ["server"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "websphere:8.5v0.1.0",
     "ports": [
       "5432/tcp",
@@ -503,7 +503,7 @@
     "description": "IBM WebSphere Application Server 8.5 with db2 9.7",
     "categories": ["server"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-websphere:8.5-db2-9.7",
     "ports": [
       "50000/tcp",
@@ -535,7 +535,7 @@
     "description": "IBM WebSphere Application Server 8.0 with PostgreSQL 9.1",
     "categories": ["server"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-websphere:8.0-postgresql-9.1",
     "ports": [
       "5432/tcp",
@@ -552,7 +552,7 @@
     "description": "Camunda CI CentOS base image",
     "categories": ["os"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-base-centos:latest",
     "ports": [
       "22/tcp"
@@ -566,7 +566,7 @@
     "description": "Camunda CI Ubuntu base image",
     "categories": ["os"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda-ci-base-ubuntu:latest",
     "ports": [
       "22/tcp"
@@ -580,7 +580,7 @@
     "description": "Microsoft Windows Server 2012R2 running Qemu in Docker with VNC on port 5900",
     "categories": ["database"],
     "platform": "windows",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
     "image": "camunda-ci-sqlserver:2014",
     "ports": [
       "5900/tcp"
@@ -596,7 +596,7 @@
     "description": "Camunda BPM platform latest snapshot running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda/camunda-bpm-platform:tomcat-SNAPSHOT",
     "ports": [
       "8080/tcp"
@@ -608,7 +608,7 @@
     "description": "Camunda BPM platform EE 7.9.0-alpha4 running on Tomcat",
     "categories": ["camunda ee", "camunda tomcat"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "registry.camunda.cloud/camunda-bpm-platform-ee:tomcat-7.9.0-alpha4",
     "ports": [
       "8080/tcp"
@@ -620,7 +620,7 @@
     "description": "Camunda BPM platform latest official release running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda/camunda-bpm-platform:tomcat-latest",
     "ports": [
       "8080/tcp"
@@ -632,7 +632,7 @@
     "description": "Camunda BPM platform 7.8.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda/camunda-bpm-platform:tomcat-7.8.0",
     "ports": [
       "8080/tcp"
@@ -644,7 +644,7 @@
     "description": "Camunda BPM platform 7.7.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda/camunda-bpm-platform:tomcat-7.7.0",
     "ports": [
       "8080/tcp"
@@ -656,7 +656,7 @@
     "description": "Camunda BPM platform 7.6.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda/camunda-bpm-platform:tomcat-7.6.0",
     "ports": [
       "8080/tcp"
@@ -668,7 +668,7 @@
     "description": "Camunda BPM platform 7.5.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda/camunda-bpm-platform:tomcat-7.5.0",
     "ports": [
       "8080/tcp"
@@ -680,7 +680,7 @@
     "description": "Camunda BPM platform 7.4.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda/camunda-bpm-platform:tomcat-7.4.0",
     "ports": [
       "8080/tcp"
@@ -692,7 +692,7 @@
     "description": "Camunda BPM platform 7.3.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda/camunda-bpm-platform:tomcat-7.3.0",
     "ports": [
       "8080/tcp"
@@ -704,7 +704,7 @@
     "description": "Camunda BPM platform 7.2.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda/camunda-bpm-platform:tomcat-7.2.0",
     "ports": [
       "8080/tcp"
@@ -716,7 +716,7 @@
     "description": "Camunda BPM platform 7.1.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda/camunda-bpm-platform:tomcat-7.1.0",
     "ports": [
       "8080/tcp"
