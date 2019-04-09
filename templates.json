@@ -1,5 +1,6 @@
 [
   {
+    "type": 1,
     "title": "DB2 v9.7",
     "description": "IBM DB2 v9.7 LUW",
     "categories": ["database"],
@@ -16,6 +17,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "DB2 v10.1",
     "description": "IBM DB2 v10.1 LUW",
     "categories": ["database"],
@@ -32,6 +34,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "DB2 v10.5",
     "description": "IBM DB2 v10.5 LUW",
     "categories": ["database"],
@@ -48,6 +51,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "DB2 v11.1",
     "description": "IBM DB2 v11.1 LUW",
     "categories": ["database"],
@@ -65,6 +69,7 @@
   },
 
   {
+    "type": 1,
     "title": "MariaDB v10.0",
     "description": "MariaDB v10.0",
     "categories": ["database"],
@@ -86,6 +91,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "MariaDB Galera v10.1",
     "description": "MariaDB Galera Cluster v10.1",
     "categories": ["database"],
@@ -102,6 +108,7 @@
   },
 
   {
+    "type": 1,
     "title": "MySQL v5.7",
     "description": "MySQL v5.7",
     "categories": ["database"],
@@ -123,6 +130,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "MySQL v5.6",
     "description": "MySQL v5.6",
     "categories": ["database"],
@@ -144,6 +152,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "MySQL v5.5",
     "description": "MySQL v5.5",
     "categories": ["database"],
@@ -165,6 +174,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "MySQL v5.1",
     "description": "MySQL v5.1",
     "categories": ["database"],
@@ -187,6 +197,7 @@
   },
 
   {
+    "type": 1,
     "title": "Oracle 12c",
     "description": "Oracle v12c Enterprise Edition",
     "categories": ["database"],
@@ -202,6 +213,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Oracle 11g",
     "description": "Oracle v11g Express Edition",
     "categories": ["database"],
@@ -217,6 +229,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Oracle 10g",
     "description": "Oracle v10g Express Edition",
     "categories": ["database"],
@@ -233,6 +246,7 @@
   },
 
   {
+    "type": 1,
     "title": "PostgreSQL v9.6",
     "description": "PostgreSQL v9.6",
     "categories": ["database"],
@@ -248,6 +262,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "PostgreSQL v9.4",
     "description": "PostgreSQL v9.4",
     "categories": ["database"],
@@ -263,6 +278,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "PostgreSQL v9.3",
     "description": "PostgreSQL v9.3",
     "categories": ["database"],
@@ -278,6 +294,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "PostgreSQL v9.1",
     "description": "PostgreSQL v9.1",
     "categories": ["database"],
@@ -294,6 +311,7 @@
   },
 
   {
+    "type": 1,
     "title": "SqlServer Express 2008",
     "description": "Microsoft SqlServer Express 2008 for Windows running Qemu in Docker",
     "categories": ["database"],
@@ -310,6 +328,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "SqlServer Express 2012",
     "description": "Microsoft SqlServer Express 2012 for Windows running Qemu in Docker",
     "categories": ["database"],
@@ -326,6 +345,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "SqlServer Express 2014",
     "description": "Microsoft SqlServer Express 2014 for Windows running Qemu in Docker",
     "categories": ["database"],
@@ -343,6 +363,7 @@
   },
 
   {
+    "type": 1,
     "title": "WebLogic 12R2",
     "description": "Oracle WebLogic Application Server 12R2",
     "categories": ["server"],
@@ -358,6 +379,7 @@
   },
 
   {
+    "type": 1,
     "title": "WebLogic 12R2 + PostgreSQL 9.4",
     "description": "Oracle WebLogic Application Server 12R2 + PostgreSQL 9.4",
     "categories": ["server"],
@@ -389,6 +411,7 @@
   },
 
   {
+    "type": 1,
     "title": "WebLogic 12R2 + Oracle 12",
     "description": "Oracle WebLogic Application Server 12R2 + Oracle 12",
     "categories": ["server"],
@@ -420,6 +443,7 @@
   },
 
   {
+    "type": 1,
     "title": "WebSphere 9.0",
     "description": "IBM WebSphere Application Server 9.0 with PostgreSQL 9.1",
     "categories": ["server"],
@@ -436,6 +460,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "WebSphere 9.0 + db2 10.5",
     "description": "IBM WebSphere Application Server 9.0 + db2 10.5",
     "categories": ["server"],
@@ -468,6 +493,7 @@
     ]
   },
   {
+    "type": 1,
     "title": "WebSphere 8.5",
     "description": "IBM WebSphere Application Server 8.5 with PostgreSQL 9.1",
     "categories": ["server"],
@@ -484,6 +510,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "WebSphere 8.5 - JDK 7",
     "description": "Run /usr/local/bin/switch-2-jdk7.sh before starting WebSphere.",
     "categories": ["server"],
@@ -499,6 +526,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "WebSphere 8.5 + db2 9.7",
     "description": "IBM WebSphere Application Server 8.5 with db2 9.7",
     "categories": ["server"],
@@ -531,6 +559,7 @@
     ]
   },
   {
+    "type": 1,
     "title": "WebSphere 8.0",
     "description": "IBM WebSphere Application Server 8.0 with PostgreSQL 9.1",
     "categories": ["server"],
@@ -548,6 +577,7 @@
   },
 
   {
+    "type": 1,
     "title": "CentOS 7.3",
     "description": "Camunda CI CentOS base image",
     "categories": ["os"],
@@ -562,6 +592,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Ubuntu",
     "description": "Camunda CI Ubuntu base image",
     "categories": ["os"],
@@ -576,6 +607,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Windows Server 2012R2",
     "description": "Microsoft Windows Server 2012R2 running Qemu in Docker with VNC on port 5900",
     "categories": ["database"],
@@ -592,6 +624,7 @@
   },
 
   {
+    "type": 1,
     "title": "Camunda BPM SNAPSHOT Tomcat",
     "description": "Camunda BPM platform latest snapshot running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
@@ -604,6 +637,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Camunda BPM EE 7.9.0-alpha4 Tomcat",
     "description": "Camunda BPM platform EE 7.9.0-alpha4 running on Tomcat",
     "categories": ["camunda ee", "camunda tomcat"],
@@ -616,6 +650,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Camunda BPM LATEST Tomcat",
     "description": "Camunda BPM platform latest official release running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
@@ -628,6 +663,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Camunda BPM 7.8.0 Tomcat",
     "description": "Camunda BPM platform 7.8.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
@@ -640,6 +676,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Camunda BPM 7.7.0 Tomcat",
     "description": "Camunda BPM platform 7.7.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
@@ -652,6 +689,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Camunda BPM 7.6.0 Tomcat",
     "description": "Camunda BPM platform 7.6.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
@@ -664,6 +702,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Camunda BPM 7.5.0 Tomcat",
     "description": "Camunda BPM platform 7.5.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
@@ -676,6 +715,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Camunda BPM 7.4.0 Tomcat",
     "description": "Camunda BPM platform 7.4.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
@@ -688,6 +728,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Camunda BPM 7.3.0 Tomcat",
     "description": "Camunda BPM platform 7.3.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
@@ -700,6 +741,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Camunda BPM 7.2.0 Tomcat",
     "description": "Camunda BPM platform 7.2.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
@@ -712,6 +754,7 @@
     "restart_policy": "on-failure"
   },
   {
+    "type": 1,
     "title": "Camunda BPM 7.1.0 Tomcat",
     "description": "Camunda BPM platform 7.1.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
