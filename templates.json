@@ -12,7 +12,7 @@
       "22/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -29,7 +29,7 @@
       "22/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -46,7 +46,7 @@
       "22/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -63,7 +63,7 @@
       "22/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -86,7 +86,7 @@
         "label": "READ-COMMITTED"
       }
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -102,7 +102,7 @@
       "3306/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -125,7 +125,7 @@
         "label": "READ-COMMITTED"
       }
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -147,7 +147,7 @@
         "label": "READ-COMMITTED"
       }
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -169,7 +169,7 @@
         "label": "READ-COMMITTED"
       }
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -191,7 +191,7 @@
         "label": "READ-COMMITTED"
       }
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -208,7 +208,7 @@
       "1521/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -224,7 +224,7 @@
       "1521/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -240,7 +240,7 @@
       "1521/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -257,7 +257,7 @@
       "5432/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -273,7 +273,7 @@
       "5432/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -289,7 +289,7 @@
       "5432/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -305,7 +305,7 @@
       "5432/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -323,7 +323,7 @@
       "5900/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-qemu.sh",
     "restart_policy": "on-failure"
   },
@@ -340,7 +340,7 @@
       "5900/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-qemu.sh",
     "restart_policy": "on-failure"
   },
@@ -357,7 +357,7 @@
       "5900/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-qemu.sh",
     "restart_policy": "on-failure"
   },
@@ -373,7 +373,7 @@
     "ports": [
       "7001/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -390,7 +390,7 @@
       "7001/tcp",
       "5432/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure",
     "env": [
@@ -422,7 +422,7 @@
       "7001/tcp",
       "1521/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure",
     "env": [
@@ -455,7 +455,7 @@
       "9060/tcp",
       "9080/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -473,7 +473,7 @@
       "9080/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure",
     "env": [
@@ -505,7 +505,7 @@
       "9060/tcp",
       "9080/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -539,7 +539,7 @@
       "9080/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure",
     "env": [
@@ -571,7 +571,7 @@
       "9060/tcp",
       "9080/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -587,7 +587,7 @@
     "ports": [
       "22/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -602,7 +602,7 @@
     "ports": [
       "22/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -618,7 +618,7 @@
       "5900/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-qemu.sh",
     "restart_policy": "on-failure"
   },
@@ -643,10 +643,11 @@
     "categories": ["camunda ee", "camunda tomcat"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "registry.camunda.cloud/camunda-bpm-platform-ee:tomcat-7.9.0-alpha4",
+    "image": "camunda-bpm-platform-ee:tomcat-7.9.0-alpha4",
     "ports": [
       "8080/tcp"
     ],
+    "registry": "anonymousproxy:8081",
     "restart_policy": "on-failure"
   },
   {
