@@ -173,28 +173,6 @@
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
-  {
-    "type": 1,
-    "title": "MySQL v5.1",
-    "description": "MySQL v5.1",
-    "categories": ["database"],
-    "platform": "linux",
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
-    "image": "camunda-ci-mysql:5.1",
-    "ports": [
-      "3306/tcp",
-      "22/tcp"
-    ],
-    "env": [
-      {
-        "name": "TRANSACTION_ISOLATION_LEVEL",
-        "label": "READ-COMMITTED"
-      }
-    ],
-    "registry": "anonymousproxy:8081",
-    "command": "/usr/local/bin/start-container.sh",
-    "restart_policy": "on-failure"
-  },
 
   {
     "type": 1,
@@ -285,22 +263,6 @@
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
     "image": "camunda-ci-postgresql:9.3",
-    "ports": [
-      "5432/tcp",
-      "22/tcp"
-    ],
-    "registry": "anonymousproxy:8081",
-    "command": "/usr/local/bin/start-container.sh",
-    "restart_policy": "on-failure"
-  },
-  {
-    "type": 1,
-    "title": "PostgreSQL v9.1",
-    "description": "PostgreSQL v9.1",
-    "categories": ["database"],
-    "platform": "linux",
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
-    "image": "camunda-ci-postgresql:9.1",
     "ports": [
       "5432/tcp",
       "22/tcp"
@@ -606,22 +568,6 @@
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
-  {
-    "type": 1,
-    "title": "Windows Server 2012R2",
-    "description": "Microsoft Windows Server 2012R2 running Qemu in Docker with VNC on port 5900",
-    "categories": ["database"],
-    "platform": "windows",
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
-    "image": "camunda-ci-sqlserver:2014",
-    "ports": [
-      "5900/tcp"
-    ],
-    "privileged": true,
-    "registry": "anonymousproxy:8081",
-    "command": "/usr/local/bin/start-qemu.sh",
-    "restart_policy": "on-failure"
-  },
 
   {
     "type": 1,
@@ -710,58 +656,6 @@
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "camunda/camunda-bpm-platform:tomcat-7.5.0",
-    "ports": [
-      "8080/tcp"
-    ],
-    "restart_policy": "on-failure"
-  },
-  {
-    "type": 1,
-    "title": "Camunda BPM 7.4.0 Tomcat",
-    "description": "Camunda BPM platform 7.4.0 running on Tomcat",
-    "categories": ["camunda", "camunda tomcat"],
-    "platform": "linux",
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda/camunda-bpm-platform:tomcat-7.4.0",
-    "ports": [
-      "8080/tcp"
-    ],
-    "restart_policy": "on-failure"
-  },
-  {
-    "type": 1,
-    "title": "Camunda BPM 7.3.0 Tomcat",
-    "description": "Camunda BPM platform 7.3.0 running on Tomcat",
-    "categories": ["camunda", "camunda tomcat"],
-    "platform": "linux",
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda/camunda-bpm-platform:tomcat-7.3.0",
-    "ports": [
-      "8080/tcp"
-    ],
-    "restart_policy": "on-failure"
-  },
-  {
-    "type": 1,
-    "title": "Camunda BPM 7.2.0 Tomcat",
-    "description": "Camunda BPM platform 7.2.0 running on Tomcat",
-    "categories": ["camunda", "camunda tomcat"],
-    "platform": "linux",
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda/camunda-bpm-platform:tomcat-7.2.0",
-    "ports": [
-      "8080/tcp"
-    ],
-    "restart_policy": "on-failure"
-  },
-  {
-    "type": 1,
-    "title": "Camunda BPM 7.1.0 Tomcat",
-    "description": "Camunda BPM platform 7.1.0 running on Tomcat",
-    "categories": ["camunda", "camunda tomcat"],
-    "platform": "linux",
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda/camunda-bpm-platform:tomcat-7.1.0",
     "ports": [
       "8080/tcp"
     ],
