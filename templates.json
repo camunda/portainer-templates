@@ -643,10 +643,11 @@
     "categories": ["camunda ee", "camunda tomcat"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "registry.camunda.cloud/camunda-bpm-platform-ee:tomcat-7.9.0-alpha4",
+    "image": "camunda-bpm-platform-ee:tomcat-7.9.0-alpha4",
     "ports": [
       "8080/tcp"
     ],
+    "registry": "registry.camunda.com",
     "restart_policy": "on-failure"
   },
   {
