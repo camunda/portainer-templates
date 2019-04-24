@@ -1,0 +1,13 @@
+---
+services:
+  main:
+    command: /usr/local/bin/start-container.sh
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: anonymousproxy:8081/camunda-ci-weblogic:12R2-oracle-12
+    ports:
+      - 7001/tcp
+      - 1521/tcp
+    restart: on-failure
+version: '3'

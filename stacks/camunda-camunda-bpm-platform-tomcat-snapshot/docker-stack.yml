@@ -1,0 +1,11 @@
+---
+services:
+  main:
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: camunda/camunda-bpm-platform:tomcat-SNAPSHOT
+    ports:
+      - 8080/tcp
+    restart: on-failure
+version: '3'

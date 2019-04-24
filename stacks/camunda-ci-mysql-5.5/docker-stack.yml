@@ -1,0 +1,13 @@
+---
+services:
+  main:
+    command: /usr/local/bin/start-container.sh
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: anonymousproxy:8081/camunda-ci-mysql:5.5
+    ports:
+      - 3306/tcp
+      - 22/tcp
+    restart: on-failure
+version: '3'

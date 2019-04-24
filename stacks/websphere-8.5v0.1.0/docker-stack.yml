@@ -1,0 +1,13 @@
+---
+services:
+  main:
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: gcr.io/ci-30-162810/websphere:8.5v0.1.0
+    ports:
+      - 5432/tcp
+      - 9060/tcp
+      - 9080/tcp
+    restart: on-failure
+version: '3'

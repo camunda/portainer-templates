@@ -1,0 +1,14 @@
+---
+services:
+  main:
+    command: /usr/local/bin/start-container.sh
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: anonymousproxy:8081/camunda-ci-websphere:9.0-postgresql-9.1
+    ports:
+      - 5432/tcp
+      - 9060/tcp
+      - 9080/tcp
+    restart: on-failure
+version: '3'

@@ -1,0 +1,13 @@
+---
+services:
+  main:
+    command: /usr/local/bin/start-container.sh
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: anonymousproxy:8081/camunda-ci-weblogic:12R2-postgresql-9.4
+    ports:
+      - 7001/tcp
+      - 5432/tcp
+    restart: on-failure
+version: '3'
