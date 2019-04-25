@@ -31,7 +31,13 @@ def get_folder(old_template):
 
 def get_image(old_template):
   if old_template.has_key('registry'):
-    return "%s/%s" % (old_template['registry'], old_template['image'])
+    # Private registries can be used successfully in stack templates,
+    # so convert from anonymousproxy which has to be used for container templates
+    # TODO: eventually we can drop container templates successfully if stack templates work fine!
+    if old_template['registry'] == 'anonymousproxy:8081':
+      return "registry.camunda.com/%s" % old_template['image']
+    else:
+      return "%s/%s" % (old_template['registry'], old_template['image'])
   else:
     return old_template['image']
 

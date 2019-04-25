@@ -5,7 +5,7 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
-    image: anonymousproxy:8081/camunda-ci-db2:9.7
+    image: registry.camunda.com/camunda-ci-db2:9.7
     ports:
       - 50000/tcp
       - 22/tcp

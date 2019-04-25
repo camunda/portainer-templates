@@ -4,7 +4,7 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
-    image: anonymousproxy:8081/camunda-bpm-platform-ee:tomcat-7.9.0-alpha4
+    image: registry.camunda.com/camunda-bpm-platform-ee:tomcat-7.9.0-alpha4
     ports:
       - 8080/tcp
     restart: on-failure

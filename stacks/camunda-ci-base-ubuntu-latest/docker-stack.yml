@@ -5,7 +5,7 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
-    image: anonymousproxy:8081/camunda-ci-base-ubuntu:latest
+    image: registry.camunda.com/camunda-ci-base-ubuntu:latest
     ports:
       - 22/tcp
     restart: on-failure

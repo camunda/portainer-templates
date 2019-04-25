@@ -5,7 +5,7 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
-    image: anonymousproxy:8081/camunda-ci-websphere:9.0-db2-10.5
+    image: registry.camunda.com/camunda-ci-websphere:9.0-db2-10.5
     ports:
       - 50000/tcp
       - 9060/tcp

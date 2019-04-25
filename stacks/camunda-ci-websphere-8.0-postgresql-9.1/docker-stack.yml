@@ -5,7 +5,7 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
-    image: anonymousproxy:8081/camunda-ci-websphere:8.0-postgresql-9.1
+    image: registry.camunda.com/camunda-ci-websphere:8.0-postgresql-9.1
     ports:
       - 5432/tcp
       - 9060/tcp
