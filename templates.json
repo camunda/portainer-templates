@@ -176,6 +176,22 @@
 
   {
     "type": 1,
+    "title": "Oracle 18c",
+    "description": "Oracle v18c Enterprise Edition",
+    "categories": ["database"],
+    "platform": "linux",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
+    "image": "camunda-ci-oracle:18",
+    "ports": [
+      "1521/tcp",
+      "22/tcp"
+    ],
+    "registry": "registry.camunda.com",
+    "command": "/usr/local/bin/start-container.sh",
+    "restart_policy": "on-failure"
+  },
+  {
+    "type": 1,
     "title": "Oracle 12c",
     "description": "Oracle v12c Enterprise Edition",
     "categories": ["database"],
