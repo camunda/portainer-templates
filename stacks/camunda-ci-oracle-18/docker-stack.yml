@@ -1,0 +1,13 @@
+---
+services:
+  main:
+    command: /usr/local/bin/start-container.sh
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: registry.camunda.com/camunda-ci-oracle:18
+    ports:
+      - 1521/tcp
+      - 22/tcp
+    restart: on-failure
+version: '3'
