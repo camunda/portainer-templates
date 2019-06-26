@@ -265,51 +265,6 @@
   }, 
   {
     "categories": [
-      "database"
-    ], 
-    "description": "Microsoft SqlServer Express 2008 for Windows running Qemu in Docker", 
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png", 
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2008/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2008/docker-stack.yml</a>", 
-    "platform": "windows", 
-    "repository": {
-      "stackfile": "stacks/camunda-ci-sqlserver-2008/docker-stack.yml", 
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    }, 
-    "title": "SqlServer Express 2008", 
-    "type": 2
-  }, 
-  {
-    "categories": [
-      "database"
-    ], 
-    "description": "Microsoft SqlServer Express 2012 for Windows running Qemu in Docker", 
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png", 
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2012/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2012/docker-stack.yml</a>", 
-    "platform": "windows", 
-    "repository": {
-      "stackfile": "stacks/camunda-ci-sqlserver-2012/docker-stack.yml", 
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    }, 
-    "title": "SqlServer Express 2012", 
-    "type": 2
-  }, 
-  {
-    "categories": [
-      "database"
-    ], 
-    "description": "Microsoft SqlServer Express 2014 for Windows running Qemu in Docker", 
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png", 
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2014/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2014/docker-stack.yml</a>", 
-    "platform": "windows", 
-    "repository": {
-      "stackfile": "stacks/camunda-ci-sqlserver-2014/docker-stack.yml", 
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    }, 
-    "title": "SqlServer Express 2014", 
-    "type": 2
-  }, 
-  {
-    "categories": [
       "server"
     ], 
     "description": "Oracle WebLogic Application Server 12R2", 

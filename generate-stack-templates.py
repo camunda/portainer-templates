@@ -105,6 +105,9 @@ if __name__ == '__main__':
   new_templates = []
 
   for old_template in old_templates:
+    if old_template['platform'] == 'windows':
+      continue
+    
     folder = get_folder(old_template)
 
     mkdir_p('stacks/%s' % folder)
