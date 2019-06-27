@@ -35,7 +35,10 @@ def get_image(old_template):
     # so convert from anonymousproxy which has to be used for container templates
     # TODO: eventually we can drop container templates successfully if stack templates work fine!
     if old_template['registry'] == 'anonymousproxy:8081':
-      return "registry.camunda.com/%s" % old_template['image']
+      if old_template['image'].startswith('camunda-ci-websphere:'):
+        return "registry.camunda.com/%s-port" % old_template['image']
+      else:
+        return "registry.camunda.com/%s" % old_template['image']
     else:
       return "%s/%s" % (old_template['registry'], old_template['image'])
   else:
@@ -57,6 +60,11 @@ def generate_docker_stack(old_template, file):
       }
     }
   }
+  if old_template['image'].startswith('camunda-ci-websphere:'):
+    stack['services']['main']['environment'] = [
+      "WAS_ADMINHOST_PORT=9060",
+      "WAS_DEFAULTHOST_PORT=9080"
+    ]
   if old_template.has_key('command'):
     stack['services']['main']['command'] = str(old_template['command'])
   if old_template.has_key('privileged'):
@@ -107,7 +115,7 @@ if __name__ == '__main__':
   for old_template in old_templates:
     if old_template['platform'] == 'windows':
       continue
-    
+
     folder = get_folder(old_template)
 
     mkdir_p('stacks/%s' % folder)

@@ -5,7 +5,10 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
-    image: registry.camunda.com/camunda-ci-websphere:9.0-db2-10.5
+    environment:
+      - WAS_ADMINHOST_PORT=9060
+      - WAS_DEFAULTHOST_PORT=9080
+    image: registry.camunda.com/camunda-ci-websphere:9.0-db2-10.5-port
     ports:
       - 50000/tcp
       - 9060/tcp
