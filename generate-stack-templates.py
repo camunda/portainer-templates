@@ -35,7 +35,7 @@ def get_image(old_template):
     # so convert from anonymousproxy which has to be used for container templates
     # TODO: eventually we can drop container templates successfully if stack templates work fine!
     if old_template['registry'] == 'anonymousproxy:8081':
-      if old_template['image'].startswith('camunda-ci-websphere:'):
+      if old_template['image'].startswith('camunda-ci-websphere:'): # or old_template['image'].startswith('camunda-ci-weblogic:'):
         return "registry.camunda.com/%s-port" % old_template['image']
       else:
         return "registry.camunda.com/%s" % old_template['image']
@@ -65,10 +65,18 @@ def generate_docker_stack(old_template, file):
       "WAS_ADMINHOST_PORT=9060",
       "WAS_DEFAULTHOST_PORT=9080"
     ]
+  # if old_template['image'].startswith('camunda-ci-weblogic:'):
+  #   stack['services']['main']['environment'] = [
+  #     "WL_ADMINSERVER_PORT=7001"
+  #   ]
   if old_template.has_key('command'):
     stack['services']['main']['command'] = str(old_template['command'])
-  if old_template.has_key('privileged'):
-    stack['services']['main']['privileged'] = old_template['privileged']
+
+  # Docker Swarm Mode does not support privileged flag yet,
+  # see: https://github.com/moby/moby/issues/24862
+  # if old_template.has_key('privileged'):
+  #   stack['services']['main']['privileged'] = old_template['privileged']
+
   yaml.dump(stack, file, Dumper=ListIndentingDumper, default_flow_style=False, explicit_start=True)
 
 def fix_env_label(label):
@@ -80,7 +88,18 @@ def fix_env_label(label):
     label['select'][0]['default'] = True
     return label
 
-def generate_portainer_template(old_template):
+def generate_portainer_container_template(old_template):
+  list_link = '{0}/blob/{1}/stack-templates.json'.format(GITHUB_REPOSITORY_URL, GITHUB_REPOSITORY_BRANCH)
+
+  old_template['note'] = 'List: <a href="{0}">{0}</a>'.format(list_link)
+
+  # fix env section for new select syntax
+  if old_template.has_key('env'):
+    old_template['env'] = [fix_env_label(label) for label in old_template['env']]
+
+  return old_template
+
+def generate_portainer_stack_template(old_template):
   folder = get_folder(old_template)
 
   list_link = '{0}/blob/{1}/stack-templates.json'.format(GITHUB_REPOSITORY_URL, GITHUB_REPOSITORY_BRANCH)
@@ -113,16 +132,17 @@ if __name__ == '__main__':
   new_templates = []
 
   for old_template in old_templates:
-    if old_template['platform'] == 'windows':
-      continue
+    if old_template.has_key('privileged') and old_template['privileged']:
+      # Use container templates Docker Swarm Mode does not support privileged flag yet
+      new_templates.append(generate_portainer_container_template(old_template))
+    else:
+      folder = get_folder(old_template)
 
-    folder = get_folder(old_template)
+      mkdir_p('stacks/%s' % folder)
+      with open('stacks/%s/docker-stack.yml' % folder, 'w') as f:
+        generate_docker_stack(old_template, f)
 
-    mkdir_p('stacks/%s' % folder)
-    with open('stacks/%s/docker-stack.yml' % folder, 'w') as f:
-      generate_docker_stack(old_template, f)
-
-    new_templates.append(generate_portainer_template(old_template))
+      new_templates.append(generate_portainer_stack_template(old_template))
 
   with open('stack-templates.json', 'w') as f:
     json.dump(new_templates, f, sort_keys=True, indent=2)

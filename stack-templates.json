@@ -3,61 +3,81 @@
     "categories": [
       "database"
     ], 
+    "command": "/usr/local/bin/start-container.sh", 
     "description": "IBM DB2 v9.7 LUW", 
+    "image": "camunda-ci-db2:9.7", 
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png", 
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-db2-9.7/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-db2-9.7/docker-stack.yml</a>", 
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>", 
     "platform": "linux", 
-    "repository": {
-      "stackfile": "stacks/camunda-ci-db2-9.7/docker-stack.yml", 
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    }, 
+    "ports": [
+      "50000/tcp", 
+      "22/tcp"
+    ], 
+    "privileged": true, 
+    "registry": "anonymousproxy:8081", 
+    "restart_policy": "on-failure", 
     "title": "DB2 v9.7", 
-    "type": 2
+    "type": 1
   }, 
   {
     "categories": [
       "database"
     ], 
+    "command": "/usr/local/bin/start-container.sh", 
     "description": "IBM DB2 v10.1 LUW", 
+    "image": "camunda-ci-db2:10.1", 
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png", 
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-db2-10.1/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-db2-10.1/docker-stack.yml</a>", 
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>", 
     "platform": "linux", 
-    "repository": {
-      "stackfile": "stacks/camunda-ci-db2-10.1/docker-stack.yml", 
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    }, 
+    "ports": [
+      "50000/tcp", 
+      "22/tcp"
+    ], 
+    "privileged": true, 
+    "registry": "anonymousproxy:8081", 
+    "restart_policy": "on-failure", 
     "title": "DB2 v10.1", 
-    "type": 2
+    "type": 1
   }, 
   {
     "categories": [
       "database"
     ], 
+    "command": "/usr/local/bin/start-container.sh", 
     "description": "IBM DB2 v10.5 LUW", 
+    "image": "camunda-ci-db2:10.5", 
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png", 
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-db2-10.5/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-db2-10.5/docker-stack.yml</a>", 
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>", 
     "platform": "linux", 
-    "repository": {
-      "stackfile": "stacks/camunda-ci-db2-10.5/docker-stack.yml", 
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    }, 
+    "ports": [
+      "50000/tcp", 
+      "22/tcp"
+    ], 
+    "privileged": true, 
+    "registry": "anonymousproxy:8081", 
+    "restart_policy": "on-failure", 
     "title": "DB2 v10.5", 
-    "type": 2
+    "type": 1
   }, 
   {
     "categories": [
       "database"
     ], 
+    "command": "/usr/local/bin/start-container.sh", 
     "description": "IBM DB2 v11.1 LUW", 
+    "image": "camunda-ci-db2:11.1", 
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png", 
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-db2-11.1/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-db2-11.1/docker-stack.yml</a>", 
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>", 
     "platform": "linux", 
-    "repository": {
-      "stackfile": "stacks/camunda-ci-db2-11.1/docker-stack.yml", 
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    }, 
+    "ports": [
+      "50000/tcp", 
+      "22/tcp"
+    ], 
+    "privileged": true, 
+    "registry": "anonymousproxy:8081", 
+    "restart_policy": "on-failure", 
     "title": "DB2 v11.1", 
-    "type": 2
+    "type": 1
   }, 
   {
     "categories": [
@@ -265,6 +285,66 @@
   }, 
   {
     "categories": [
+      "database"
+    ], 
+    "command": "/usr/local/bin/start-qemu.sh", 
+    "description": "Microsoft SqlServer Express 2008 for Windows running Qemu in Docker", 
+    "image": "camunda-ci-sqlserver:2008", 
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png", 
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>", 
+    "platform": "windows", 
+    "ports": [
+      "1433/tcp", 
+      "5900/tcp"
+    ], 
+    "privileged": true, 
+    "registry": "anonymousproxy:8081", 
+    "restart_policy": "on-failure", 
+    "title": "SqlServer Express 2008", 
+    "type": 1
+  }, 
+  {
+    "categories": [
+      "database"
+    ], 
+    "command": "/usr/local/bin/start-qemu.sh", 
+    "description": "Microsoft SqlServer Express 2012 for Windows running Qemu in Docker", 
+    "image": "camunda-ci-sqlserver:2012", 
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png", 
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>", 
+    "platform": "windows", 
+    "ports": [
+      "1433/tcp", 
+      "5900/tcp"
+    ], 
+    "privileged": true, 
+    "registry": "anonymousproxy:8081", 
+    "restart_policy": "on-failure", 
+    "title": "SqlServer Express 2012", 
+    "type": 1
+  }, 
+  {
+    "categories": [
+      "database"
+    ], 
+    "command": "/usr/local/bin/start-qemu.sh", 
+    "description": "Microsoft SqlServer Express 2014 for Windows running Qemu in Docker", 
+    "image": "camunda-ci-sqlserver:2014", 
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png", 
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>", 
+    "platform": "windows", 
+    "ports": [
+      "1433/tcp", 
+      "5900/tcp"
+    ], 
+    "privileged": true, 
+    "registry": "anonymousproxy:8081", 
+    "restart_policy": "on-failure", 
+    "title": "SqlServer Express 2014", 
+    "type": 1
+  }, 
+  {
+    "categories": [
       "server"
     ], 
     "description": "Oracle WebLogic Application Server 12R2", 
@@ -389,6 +469,7 @@
     "categories": [
       "server"
     ], 
+    "command": "/usr/local/bin/start-container.sh", 
     "description": "IBM WebSphere Application Server 9.0 + db2 10.5", 
     "env": [
       {
@@ -419,15 +500,20 @@
         "name": "nexus_pass"
       }
     ], 
+    "image": "camunda-ci-websphere:9.0-db2-10.5", 
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png", 
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-10.5/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-10.5/docker-stack.yml</a>", 
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>", 
     "platform": "linux", 
-    "repository": {
-      "stackfile": "stacks/camunda-ci-websphere-9.0-db2-10.5/docker-stack.yml", 
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    }, 
+    "ports": [
+      "50000/tcp", 
+      "9060/tcp", 
+      "9080/tcp"
+    ], 
+    "privileged": true, 
+    "registry": "anonymousproxy:8081", 
+    "restart_policy": "on-failure", 
     "title": "WebSphere 9.0 + db2 10.5", 
-    "type": 2
+    "type": 1
   }, 
   {
     "categories": [
@@ -463,6 +549,7 @@
     "categories": [
       "server"
     ], 
+    "command": "/usr/local/bin/start-container.sh", 
     "description": "IBM WebSphere Application Server 8.5 with db2 9.7", 
     "env": [
       {
@@ -493,15 +580,20 @@
         "name": "nexus_pass"
       }
     ], 
+    "image": "camunda-ci-websphere:8.5-db2-9.7", 
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png", 
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-8.5-db2-9.7/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-8.5-db2-9.7/docker-stack.yml</a>", 
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>", 
     "platform": "linux", 
-    "repository": {
-      "stackfile": "stacks/camunda-ci-websphere-8.5-db2-9.7/docker-stack.yml", 
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    }, 
+    "ports": [
+      "50000/tcp", 
+      "9060/tcp", 
+      "9080/tcp"
+    ], 
+    "privileged": true, 
+    "registry": "anonymousproxy:8081", 
+    "restart_policy": "on-failure", 
     "title": "WebSphere 8.5 + db2 9.7", 
-    "type": 2
+    "type": 1
   }, 
   {
     "categories": [
