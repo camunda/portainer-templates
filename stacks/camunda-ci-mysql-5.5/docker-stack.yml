@@ -5,6 +5,8 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
+    environment:
+      - TRANSACTION_ISOLATION_LEVEL=${TRANSACTION_ISOLATION_LEVEL}
     image: registry.camunda.com/camunda-ci-mysql:5.5
     ports:
       - 3306/tcp

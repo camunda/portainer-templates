@@ -52,6 +52,7 @@ def generate_docker_stack(old_template, file):
         'image': str(get_image(old_template)),
         'restart': str(old_template['restart_policy']),
         'ports': [str(p) for p in old_template['ports']],
+        'environment': [],
         'deploy': {
           'restart_policy': {
             'condition': str(old_template['restart_policy'])
@@ -61,16 +62,18 @@ def generate_docker_stack(old_template, file):
     }
   }
   if old_template['image'].startswith('camunda-ci-websphere:'):
-    stack['services']['main']['environment'] = [
-      "WAS_ADMINHOST_PORT=9060",
-      "WAS_DEFAULTHOST_PORT=9080"
-    ]
+    stack['services']['main']['environment'].append("WAS_ADMINHOST_PORT=9060")
+    stack['services']['main']['environment'].append("WAS_DEFAULTHOST_PORT=9080")
   # if old_template['image'].startswith('camunda-ci-weblogic:'):
   #   stack['services']['main']['environment'] = [
   #     "WL_ADMINSERVER_PORT=7001"
   #   ]
   if old_template.has_key('command'):
     stack['services']['main']['command'] = str(old_template['command'])
+
+  if old_template.has_key('env'):
+    for entry in old_template['env']:
+      stack['services']['main']['environment'].append('{0}=${{{0}}}'.format(entry['name']))
 
   # Docker Swarm Mode does not support privileged flag yet,
   # see: https://github.com/moby/moby/issues/24862
