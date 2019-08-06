@@ -13,5 +13,6 @@ services:
     ports:
       - 7001/tcp
       - 5432/tcp
+      - 22/tcp
     restart: on-failure
 version: '3'
