@@ -87,8 +87,8 @@ def fix_env_label(label):
     return label
   else:
     value_set = label.pop('set')
-    label['select'] = [{'text': value, 'value': value} for value in value_set.split(',')]
-    label['select'][0]['default'] = True
+    label['default'] = value_set
+    label['preset'] = True
     return label
 
 def generate_portainer_container_template(old_template):
@@ -96,7 +96,7 @@ def generate_portainer_container_template(old_template):
 
   old_template['note'] = 'List: <a href="{0}">{0}</a>'.format(list_link)
 
-  # fix env section for new select syntax
+  # fix env section for new set syntax
   if old_template.has_key('env'):
     old_template['env'] = [fix_env_label(label) for label in old_template['env']]
 
@@ -122,9 +122,10 @@ def generate_portainer_stack_template(old_template):
     }
   }
 
-  # fix env section for new select syntax
+  # fix env section for new set syntax
   if old_template.has_key('env'):
     template['env'] = [fix_env_label(label) for label in old_template['env']]
+    template['env'] = old_template['env']
 
   return template
 

@@ -365,23 +365,10 @@
     "description": "Oracle WebLogic Application Server 12R2 + PostgreSQL 9.4", 
     "env": [
       {
+        "default": "wls,wls12-docker,postgresql", 
         "label": "Maven profiles", 
         "name": "profiles", 
-        "select": [
-          {
-            "default": true, 
-            "text": "wls", 
-            "value": "wls"
-          }, 
-          {
-            "text": "wls12-docker", 
-            "value": "wls12-docker"
-          }, 
-          {
-            "text": "postgresql", 
-            "value": "postgresql"
-          }
-        ]
+        "preset": true
       }, 
       {
         "label": "Camunda version", 
@@ -409,27 +396,10 @@
     "description": "Oracle WebLogic Application Server 12R2 + Oracle 12", 
     "env": [
       {
+        "default": "wls,wls12-docker,oracle,oracle-12", 
         "label": "Maven profiles", 
         "name": "profiles", 
-        "select": [
-          {
-            "default": true, 
-            "text": "wls", 
-            "value": "wls"
-          }, 
-          {
-            "text": "wls12-docker", 
-            "value": "wls12-docker"
-          }, 
-          {
-            "text": "oracle", 
-            "value": "oracle"
-          }, 
-          {
-            "text": "oracle-12", 
-            "value": "oracle-12"
-          }
-        ]
+        "preset": true
       }, 
       {
         "label": "Camunda version", 
@@ -473,23 +443,10 @@
     "description": "IBM WebSphere Application Server 9.0 + db2 10.5", 
     "env": [
       {
+        "default": "was90,db2,db2-10.5", 
         "label": "Maven profiles", 
         "name": "profiles", 
-        "select": [
-          {
-            "default": true, 
-            "text": "was90", 
-            "value": "was90"
-          }, 
-          {
-            "text": "db2", 
-            "value": "db2"
-          }, 
-          {
-            "text": "db2-10.5", 
-            "value": "db2-10.5"
-          }
-        ]
+        "preset": true
       }, 
       {
         "label": "Camunda version", 
@@ -553,23 +510,10 @@
     "description": "IBM WebSphere Application Server 8.5 with db2 9.7", 
     "env": [
       {
+        "default": "was85,db2,db2-97", 
         "label": "Maven profiles", 
         "name": "profiles", 
-        "select": [
-          {
-            "default": true, 
-            "text": "was85", 
-            "value": "was85"
-          }, 
-          {
-            "text": "db2", 
-            "value": "db2"
-          }, 
-          {
-            "text": "db2-97", 
-            "value": "db2-97"
-          }
-        ]
+        "preset": true
       }, 
       {
         "label": "Camunda version", 
