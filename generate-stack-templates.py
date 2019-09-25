@@ -73,7 +73,11 @@ def generate_docker_stack(old_template, file):
 
   if old_template.has_key('env'):
     for entry in old_template['env']:
-      stack['services']['main']['environment'].append('{0}=${{{0}}}'.format(entry['name']))
+      # workaround for bug in the old templates where default parameter got assigned as the label
+      if entry['name'] == 'TRANSACTION_ISOLATION_LEVEL':
+        stack['services']['main']['environment'].append('TRANSACTION_ISOLATION_LEVEL=${TRANSACTION_ISOLATION_LEVEL:-REPEATABLE-READ}')
+      else:
+        stack['services']['main']['environment'].append('{0}=${{{0}}}'.format(entry['name']))
 
   # Docker Swarm Mode does not support privileged flag yet,
   # see: https://github.com/moby/moby/issues/24862
