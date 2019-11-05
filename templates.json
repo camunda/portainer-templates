@@ -503,7 +503,7 @@
       "9060/tcp",
       "9080/tcp"
     ],
-    "registry": "gcr.io/ci-30-162810",
+    "registry": "anonymousproxy:8081",
     "restart_policy": "on-failure"
   },
   {
