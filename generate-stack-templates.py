@@ -30,7 +30,7 @@ def get_folder(old_template):
   return re.sub('[^a-z0-9.-]', '-', old_template['image'].lower())
 
 def get_image(old_template):
-  if old_template.has_key('registry'):
+  if 'registry' in old_template:
     # Private registries can be used successfully in stack templates,
     # so convert from anonymousproxy which has to be used for container templates
     # TODO: eventually we can drop container templates successfully if stack templates work fine!
@@ -68,10 +68,10 @@ def generate_docker_stack(old_template, file):
   #   stack['services']['main']['environment'] = [
   #     "WL_ADMINSERVER_PORT=7001"
   #   ]
-  if old_template.has_key('command'):
+  if 'command' in old_template:
     stack['services']['main']['command'] = str(old_template['command'])
 
-  if old_template.has_key('env'):
+  if 'env' in old_template:
     for entry in old_template['env']:
       # workaround for bug in the old templates where default parameter got assigned as the label
       if entry['name'] == 'TRANSACTION_ISOLATION_LEVEL':
@@ -87,7 +87,7 @@ def generate_docker_stack(old_template, file):
   yaml.dump(stack, file, Dumper=ListIndentingDumper, default_flow_style=False, explicit_start=True)
 
 def fix_env_label(label):
-  if not label.has_key('set'):
+  if not 'set' in label:
     return label
   else:
     value_set = label.pop('set')
@@ -101,7 +101,7 @@ def generate_portainer_container_template(old_template):
   old_template['note'] = 'List: <a href="{0}">{0}</a>'.format(list_link)
 
   # fix env section for new set syntax
-  if old_template.has_key('env'):
+  if 'env' in old_template:
     old_template['env'] = [fix_env_label(label) for label in old_template['env']]
 
   return old_template
@@ -127,7 +127,7 @@ def generate_portainer_stack_template(old_template):
   }
 
   # fix env section for new set syntax
-  if old_template.has_key('env'):
+  if 'env' in old_template:
     template['env'] = [fix_env_label(label) for label in old_template['env']]
     template['env'] = old_template['env']
 
@@ -143,7 +143,7 @@ if __name__ == '__main__':
     new_templates.extend(json.load(f))
 
   for old_template in old_templates:
-    if old_template.has_key('privileged') and old_template['privileged']:
+    if ('privileged' in old_template) and old_template['privileged']:
       # Use container templates Docker Swarm Mode does not support privileged flag yet
       new_templates.append(generate_portainer_container_template(old_template))
     else:
