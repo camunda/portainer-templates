@@ -139,6 +139,9 @@ if __name__ == '__main__':
 
   new_templates = []
 
+  with open('new-stack-templates.json', 'r') as f:
+    new_templates.extend(json.load(f))
+
   for old_template in old_templates:
     if old_template.has_key('privileged') and old_template['privileged']:
       # Use container templates Docker Swarm Mode does not support privileged flag yet
