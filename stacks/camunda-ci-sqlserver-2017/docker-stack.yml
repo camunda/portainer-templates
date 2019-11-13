@@ -1,0 +1,14 @@
+---
+services:
+  main:
+    deploy:
+      restart_policy:
+        condition: on-failure
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=camunda_123
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    ports:
+      - 1433/tcp
+    restart: on-failure
+version: '3'
