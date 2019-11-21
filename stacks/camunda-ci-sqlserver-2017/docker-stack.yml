@@ -7,6 +7,8 @@ services:
     environment:
       - ACCEPT_EULA=Y
       - SA_PASSWORD=camunda_123
+      - FOR_DOCUMENTATION__USERNAME=SA
+      - FOR_DOCUMENTATION__DATABASE_NAME=master
     image: mcr.microsoft.com/mssql/server:2017-latest
     ports:
       - 1433/tcp
