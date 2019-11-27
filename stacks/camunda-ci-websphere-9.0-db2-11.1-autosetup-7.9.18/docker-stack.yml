@@ -9,7 +9,7 @@ services:
       - DATABASE_HOST=${DATABASE_HOST}
       - DATABASE_PORT=${DATABASE_PORT}
       - DATABASE_NAME=${DATABASE_NAME}
-    image: registry.camunda.com/camunda-ci-websphere:9.0-db2-11.1-autosetup-7.12.0
+    image: registry.camunda.com/camunda-ci-websphere:9.0-db2-11.1-autosetup-7.9.18
     ports:
       - 9060/tcp
       - 9080/tcp

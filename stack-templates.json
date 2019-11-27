@@ -116,7 +116,7 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.12.0-alpha6/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.12.0-alpha6/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.9.18/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.9.18/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.9.18/docker-stack.yml",
@@ -146,7 +146,7 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.12.0-alpha6/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.12.0-alpha6/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.10.12/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.10.12/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.10.12/docker-stack.yml",
@@ -176,7 +176,7 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.12.0-alpha6/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.12.0-alpha6/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.11.6/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.11.6/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.11.6/docker-stack.yml",
@@ -236,7 +236,7 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.12.0-alpha6/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.12.0-alpha6/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.9.18/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.9.18/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.9.18/docker-stack.yml",
@@ -266,7 +266,7 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.12.0-alpha6/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.12.0-alpha6/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.10.12/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.10.12/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.10.12/docker-stack.yml",
@@ -296,7 +296,7 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.12.0-alpha6/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.12.0-alpha6/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.11.6/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.11.6/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.11.6/docker-stack.yml",
