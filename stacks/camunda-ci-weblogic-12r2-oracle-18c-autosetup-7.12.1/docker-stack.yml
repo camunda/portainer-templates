@@ -9,9 +9,8 @@ services:
       - DATABASE_HOST=${DATABASE_HOST}
       - DATABASE_PORT=${DATABASE_PORT}
       - DATABASE_NAME=${DATABASE_NAME}
-    image: registry.camunda.com/camunda-ci-websphere:9.0-db2-11.1-autosetup-7.11.7
+    image: registry.camunda.com/camunda-ci-weblogic:12R2-oracle-18c-autosetup-7.12.1
     ports:
-      - 9060/tcp
-      - 9080/tcp
+      - 7001/tcp
     restart: on-failure
 version: '3'
