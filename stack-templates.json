@@ -91,7 +91,7 @@
       }
     ], 
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png", 
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2:7.13-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2:7.13-latest/docker-stack.yml</a>", 
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-713-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-713-latest/docker-stack.yml</a>",
     "platform": "linux", 
     "repository": {
       "stackfile": "stacks/weblogic12r2-713-latest/docker-stack.yml",
@@ -126,7 +126,7 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r1:7.13-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r1:7.13-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r1-713-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r1-713-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/weblogic12r1-713-latest/docker-stack.yml",
@@ -251,7 +251,7 @@
       }
     ], 
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png", 
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9:7.13-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9:7.13-latest/docker-stack.yml</a>", 
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-713-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-713-latest/docker-stack.yml</a>",
     "platform": "linux", 
     "repository": {
       "stackfile": "stacks/websphere9-713-latest/docker-stack.yml",
