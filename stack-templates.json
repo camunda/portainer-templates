@@ -147,7 +147,7 @@
       "stackfile": "stacks/weblogic12r1-713-latest/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "WebLogic 12R1 (autosetup): 7.13.x",
+    "title": "WebLogic 12R1 (autosetup): Camunda BPM 7.13.x",
     "type": 2
   },
   {
@@ -322,7 +322,7 @@
       "stackfile": "stacks/websphere9-713-latest/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "WebSphere 9.0: Camunda BPM 7.13.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.13.x",
     "type": 2
   },
   {
