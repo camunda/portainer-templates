@@ -84,7 +84,7 @@
     "categories": [
       "server"
     ],
-    "description": "NOTE: Please first start an Oracle 18c container and fill out the database fields before creating this container!",
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",
     "env": [
       {
         "label": "Database Host",
@@ -112,14 +112,14 @@
       "stackfile": "stacks/weblogic12r2-713-latest/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "WebLogic 12R2 + Oracle 18c (autosetup) 7.13.0 (LATEST)",
+    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.13.x",
     "type": 2
   },
   {
     "categories": [
       "server"
     ],
-    "description": "NOTE: Please first start an Oracle 18c container and fill out the database fields before creating this container!",
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",
     "env": [
       {
         "label": "Database Host",
@@ -147,14 +147,14 @@
       "stackfile": "stacks/weblogic12r1-713-latest/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "WebLogic 12R1 + Oracle 18c (autosetup) 7.13.0 (LATEST)",
+    "title": "WebLogic 12R1 (autosetup): 7.13.x",
     "type": 2
   },
   {
     "categories": [
       "server"
     ],
-    "description": "NOTE: Please first start an Oracle 18c container and fill out the database fields before creating this container!",
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",
     "env": [
       {
         "label": "Database Host",
@@ -182,14 +182,14 @@
       "stackfile": "stacks/weblogic12r2-79-latest/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup) 7.9.20",
+    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.9.x",
     "type": 2
   },
   {
     "categories": [
       "server"
     ],
-    "description": "NOTE: Please first start an Oracle 18c container and fill out the database fields before creating this container!",
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",
     "env": [
       {
         "label": "Database Host",
@@ -217,14 +217,14 @@
       "stackfile": "stacks/weblogic12r2-710-latest/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup) 7.10.15",
+    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.10.x",
     "type": 2
   },
   {
     "categories": [
       "server"
     ],
-    "description": "NOTE: Please first start an Oracle 18c container and fill out the database fields before creating this container!",
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",
     "env": [
       {
         "label": "Database Host",
@@ -252,14 +252,14 @@
       "stackfile": "stacks/weblogic12r2-711-latest/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup) 7.11.9",
+    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.11.x",
     "type": 2
   },
   {
     "categories": [
       "server"
     ],
-    "description": "NOTE: Please first start an Oracle 18c container and fill out the database fields before creating this container!",
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",
     "env": [
       {
         "label": "Database Host",
@@ -287,104 +287,14 @@
       "stackfile": "stacks/weblogic12r2-712-latest/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup) 7.12.2",
+    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.12.x",
     "type": 2
   },
   {
     "categories": [
       "server"
     ],
-    "description": "NOTE: Please first start an Oracle 18c container and fill out the database fields before creating this container!",
-    "env": [
-      {
-        "label": "Database Host",
-        "name": "DATABASE_HOST"
-      },
-      {
-        "label": "Database Port",
-        "name": "DATABASE_PORT"
-      },
-      {
-        "default": "XE",
-        "label": "Database Name",
-        "name": "DATABASE_NAME"
-      }
-    ],
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.12.1/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.9.18/docker-stack.yml</a>",
-    "platform": "linux",
-    "repository": {
-      "stackfile": "stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.12.1/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    },
-    "title": "WebLogic 12R2 + Oracle 18c (autosetup) 7.12.1",
-    "type": 2
-  },
-  {
-    "categories": [
-      "server"
-    ],
-    "description": "NOTE: Please first start an Oracle 18c container and fill out the database fields before creating this container!",
-    "env": [
-      {
-        "label": "Database Host",
-        "name": "DATABASE_HOST"
-      },
-      {
-        "label": "Database Port",
-        "name": "DATABASE_PORT"
-      },
-      {
-        "default": "XE",
-        "label": "Database Name",
-        "name": "DATABASE_NAME"
-      }
-    ],
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.10.14/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.10.12/docker-stack.yml</a>",
-    "platform": "linux",
-    "repository": {
-      "stackfile": "stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.10.14/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    },
-    "title": "WebLogic 12R2 + Oracle 18c (autosetup) 7.10.14",
-    "type": 2
-  },
-  {
-    "categories": [
-      "server"
-    ],
-    "description": "NOTE: Please first start an Oracle 18c container and fill out the database fields before creating this container!",
-    "env": [
-      {
-        "label": "Database Host",
-        "name": "DATABASE_HOST"
-      },
-      {
-        "label": "Database Port",
-        "name": "DATABASE_PORT"
-      },
-      {
-        "default": "XE",
-        "label": "Database Name",
-        "name": "DATABASE_NAME"
-      }
-    ],
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.11.8/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.11.6/docker-stack.yml</a>",
-    "platform": "linux",
-    "repository": {
-      "stackfile": "stacks/camunda-ci-weblogic-12r2-oracle-18c-autosetup-7.11.8/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    },
-    "title": "WebLogic 12R2 + Oracle 18c (autosetup) 7.11.8",
-    "type": 2
-  },
-  {
-    "categories": [
-      "server"
-    ],
-    "description": "NOTE: Please first start a DB2 11.1 container and fill out the database fields before creating this container!",
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",
     "env": [
       {
         "label": "Database Host",
@@ -412,14 +322,14 @@
       "stackfile": "stacks/websphere9-713-latest/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "WebSphere 9.0 + DB2 11.1 (autosetup) 7.13.0 (LATEST)",
+    "title": "WebSphere 9.0: Camunda BPM 7.13.x",
     "type": 2
   },
   {
     "categories": [
       "server"
     ],
-    "description": "NOTE: Please first start a DB2 11.1 container and fill out the database fields before creating this container!",
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",
     "env": [
       {
         "label": "Database Host",
@@ -447,14 +357,14 @@
       "stackfile": "stacks/websphere9-79-latest/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup) 7.9.20",
+    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.9.x",
     "type": 2
   },
   {
     "categories": [
       "server"
     ],
-    "description": "NOTE: Please first start a DB2 11.1 container and fill out the database fields before creating this container!",
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",
     "env": [
       {
         "label": "Database Host",
@@ -482,14 +392,14 @@
       "stackfile": "stacks/websphere9-710-latest/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup) 7.10.15",
+    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.10.x",
     "type": 2
   },
   {
     "categories": [
       "server"
     ],
-    "description": "NOTE: Please first start a DB2 11.1 container and fill out the database fields before creating this container!",
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",
     "env": [
       {
         "label": "Database Host",
@@ -517,14 +427,14 @@
       "stackfile": "stacks/websphere9-711-latest/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup) 7.11.9",
+    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.11.x",
     "type": 2
   },
   {
     "categories": [
       "server"
     ],
-    "description": "NOTE: Please first start a DB2 11.1 container and fill out the database fields before creating this container!",
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",
     "env": [
       {
         "label": "Database Host",
@@ -552,127 +462,7 @@
       "stackfile": "stacks/websphere9-712-latest/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup) 7.12.2",
-    "type": 2
-  },
-  {
-    "categories": [
-      "server"
-    ],
-    "description": "NOTE: Please first start a DB2 11.1 container and fill out the database fields before creating this container!",
-    "env": [
-      {
-        "label": "Database Host",
-        "name": "DATABASE_HOST"
-      },
-      {
-        "label": "Database Port",
-        "name": "DATABASE_PORT"
-      },
-      {
-        "default": "engine",
-        "label": "Database Name",
-        "name": "DATABASE_NAME"
-      }
-    ],
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.12.1/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.9.18/docker-stack.yml</a>",
-    "platform": "linux",
-    "repository": {
-      "stackfile": "stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.12.1/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    },
-    "title": "WebSphere 9.0 + DB2 11.1 (autosetup) 7.12.1",
-    "type": 2
-  },
-  {
-    "categories": [
-      "server"
-    ],
-    "description": "NOTE: Please first start a DB2 11.1 container and fill out the database fields before creating this container!",
-    "env": [
-      {
-        "label": "Database Host",
-        "name": "DATABASE_HOST"
-      },
-      {
-        "label": "Database Port",
-        "name": "DATABASE_PORT"
-      },
-      {
-        "default": "engine",
-        "label": "Database Name",
-        "name": "DATABASE_NAME"
-      }
-    ],
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.10.14/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.10.12/docker-stack.yml</a>",
-    "platform": "linux",
-    "repository": {
-      "stackfile": "stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.10.14/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    },
-    "title": "WebSphere 9.0 + DB2 11.1 (autosetup) 7.10.14",
-    "type": 2
-  },
-  {
-    "categories": [
-      "server"
-    ],
-    "description": "NOTE: Please first start a DB2 11.1 container and fill out the database fields before creating this container!",
-    "env": [
-      {
-        "label": "Database Host",
-        "name": "DATABASE_HOST"
-      },
-      {
-        "label": "Database Port",
-        "name": "DATABASE_PORT"
-      },
-      {
-        "default": "engine",
-        "label": "Database Name",
-        "name": "DATABASE_NAME"
-      }
-    ],
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.11.8/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.11.6/docker-stack.yml</a>",
-    "platform": "linux",
-    "repository": {
-      "stackfile": "stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.11.8/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    },
-    "title": "WebSphere 9.0 + DB2 11.1 (autosetup) 7.11.8",
-    "type": 2
-  },
-  {
-    "categories": [
-      "server"
-    ],
-    "description": "NOTE: Please first start a DB2 11.1 container and fill out the database fields before creating this container!",
-    "env": [
-      {
-        "label": "Database Host",
-        "name": "DATABASE_HOST"
-      },
-      {
-        "label": "Database Port",
-        "name": "DATABASE_PORT"
-      },
-      {
-        "default": "engine",
-        "label": "Database Name",
-        "name": "DATABASE_NAME"
-      }
-    ],
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.12.0/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.12.0/docker-stack.yml</a>",
-    "platform": "linux",
-    "repository": {
-      "stackfile": "stacks/camunda-ci-websphere-9.0-db2-11.1-autosetup-7.12.0/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    },
-    "title": "WebSphere 9.0 + DB2 11.1 (autosetup) 7.12.0",
+    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.12.x",
     "type": 2
   },
   {
