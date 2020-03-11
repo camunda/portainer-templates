@@ -603,20 +603,6 @@
   },
   {
     "type": 1,
-    "title": "Camunda BPM EE 7.9.0-alpha4 Tomcat",
-    "description": "Camunda BPM platform EE 7.9.0-alpha4 running on Tomcat",
-    "categories": ["camunda ee", "camunda tomcat"],
-    "platform": "linux",
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-bpm-platform-ee:tomcat-7.9.0-alpha4",
-    "ports": [
-      "8080/tcp"
-    ],
-    "registry": "anonymousproxy:8081",
-    "restart_policy": "on-failure"
-  },
-  {
-    "type": 1,
     "title": "Camunda BPM LATEST Tomcat",
     "description": "Camunda BPM platform latest official release running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],

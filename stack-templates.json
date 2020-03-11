@@ -25,7 +25,7 @@
     "repository": {
       "stackfile": "stacks/camunda-ci-postgresql-10.7/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
-    }, 
+    },
     "title": "PostgreSQL v10.7",
     "type": 2
   },
@@ -1079,22 +1079,6 @@
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
     "title": "Camunda BPM SNAPSHOT Tomcat",
-    "type": 2
-  },
-  {
-    "categories": [
-      "camunda ee",
-      "camunda tomcat"
-    ],
-    "description": "Camunda BPM platform EE 7.9.0-alpha4 running on Tomcat",
-    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-bpm-platform-ee-tomcat-7.9.0-alpha4/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-bpm-platform-ee-tomcat-7.9.0-alpha4/docker-stack.yml</a>",
-    "platform": "linux",
-    "repository": {
-      "stackfile": "stacks/camunda-bpm-platform-ee-tomcat-7.9.0-alpha4/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
-    },
-    "title": "Camunda BPM EE 7.9.0-alpha4 Tomcat",
     "type": 2
   },
   {
