@@ -7,7 +7,7 @@ services:
         condition: on-failure
     environment:
       - TRANSACTION_ISOLATION_LEVEL=${TRANSACTION_ISOLATION_LEVEL:-REPEATABLE-READ}
-    image: registry.camunda.com/camunda-ci-mysql:5.7
+    image: registry.camunda.cloud/team-cambpm/camunda-ci-mysql:5.7
     ports:
       - 3306/tcp
       - 22/tcp

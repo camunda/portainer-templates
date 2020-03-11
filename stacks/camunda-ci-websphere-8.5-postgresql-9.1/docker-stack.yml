@@ -8,7 +8,7 @@ services:
     environment:
       - WAS_ADMINHOST_PORT=9060
       - WAS_DEFAULTHOST_PORT=9080
-    image: registry.camunda.com/camunda-ci-websphere:8.5-postgresql-9.1-port
+    image: registry.camunda.cloud/team-cambpm/camunda-ci-websphere:8.5-postgresql-9.1-port
     ports:
       - 5432/tcp
       - 9060/tcp

@@ -6,7 +6,7 @@ services:
       restart_policy:
         condition: on-failure
     environment: []
-    image: registry.camunda.com/camunda-ci-postgresql:9.3
+    image: registry.camunda.cloud/team-cambpm/camunda-ci-postgresql:9.3
     ports:
       - 5432/tcp
       - 22/tcp

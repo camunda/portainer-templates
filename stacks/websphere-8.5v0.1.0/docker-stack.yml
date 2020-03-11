@@ -5,7 +5,7 @@ services:
       restart_policy:
         condition: on-failure
     environment: []
-    image: registry.camunda.com/websphere:8.5v0.1.0
+    image: registry.camunda.cloud/team-cambpm/websphere:8.5v0.1.0
     ports:
       - 5432/tcp
       - 9060/tcp

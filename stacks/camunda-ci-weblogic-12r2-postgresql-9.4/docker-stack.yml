@@ -9,7 +9,7 @@ services:
       - profiles=${profiles}
       - version=${version}
       - nexus_pass=${nexus_pass}
-    image: registry.camunda.com/camunda-ci-weblogic:12R2-postgresql-9.4
+    image: registry.camunda.cloud/team-cambpm/camunda-ci-weblogic:12R2-postgresql-9.4
     ports:
       - 7001/tcp
       - 5432/tcp

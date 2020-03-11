@@ -6,7 +6,7 @@ services:
       restart_policy:
         condition: on-failure
     environment: []
-    image: registry.camunda.com/camunda-ci-base-centos:latest
+    image: registry.camunda.cloud/team-cambpm/camunda-ci-base-centos:latest
     ports:
       - 22/tcp
     restart: on-failure
