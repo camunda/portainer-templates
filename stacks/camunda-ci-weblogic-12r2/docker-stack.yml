@@ -6,7 +6,7 @@ services:
       restart_policy:
         condition: on-failure
     environment: []
-    image: registry.camunda.com/camunda-ci-weblogic:12R2
+    image: registry.camunda.cloud/team-cambpm/camunda-ci-weblogic:12R2
     ports:
       - 7001/tcp
       - 22/tcp

@@ -6,7 +6,7 @@ services:
       restart_policy:
         condition: on-failure
     environment: []
-    image: registry.camunda.com/camunda-ci-mariadb:galera
+    image: registry.camunda.cloud/team-cambpm/camunda-ci-mariadb:galera
     ports:
       - 3306/tcp
       - 22/tcp

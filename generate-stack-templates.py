@@ -36,9 +36,9 @@ def get_image(old_template):
     # TODO: eventually we can drop container templates successfully if stack templates work fine!
     if old_template['registry'] == 'anonymousproxy:8081':
       if old_template['image'].startswith('camunda-ci-websphere:'): # or old_template['image'].startswith('camunda-ci-weblogic:'):
-        return "registry.camunda.com/%s-port" % old_template['image']
+        return "registry.camunda.cloud/team-cambpm/%s-port" % old_template['image']
       else:
-        return "registry.camunda.com/%s" % old_template['image']
+        return "registry.camunda.cloud/team-cambpm/%s" % old_template['image']
     else:
       return "%s/%s" % (old_template['registry'], old_template['image'])
   else:

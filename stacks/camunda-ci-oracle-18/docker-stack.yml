@@ -6,7 +6,7 @@ services:
       restart_policy:
         condition: on-failure
     environment: []
-    image: registry.camunda.com/camunda-ci-oracle:18
+    image: registry.camunda.cloud/team-cambpm/camunda-ci-oracle:18
     ports:
       - 1521/tcp
       - 22/tcp
