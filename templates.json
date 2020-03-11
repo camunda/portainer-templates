@@ -186,7 +186,7 @@
       "1521/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.com",
+    "registry": "anonymousproxy:8081",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
