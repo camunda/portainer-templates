@@ -63,6 +63,21 @@
     "categories": [
       "database"
     ],
+    "description": "CockroachDB v20.1.3",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/cockroachdb.png",
+    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-cockroachdb/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-cockroachdb/docker-stack.yml</a>",
+    "platform": "linux",
+    "repository": {
+      "stackfile": "stacks/camunda-ci-cockroachdb/docker-stack.yml",
+      "url": "https://github.com/camunda-ci/portainer-templates"
+    },
+    "title": "CockroachDB v20.1.3",
+    "type": 2
+  },
+  {
+    "categories": [
+      "database"
+    ],
     "description": "MariaDB v10.3",
     "env": [
       {
