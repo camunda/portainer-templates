@@ -107,7 +107,7 @@
       "stackfile": "stacks/camunda-ci-mariadb-galera-new/docker-stack.yml",
       "url": "https://github.com/camunda-ci/portainer-templates"
     },
-    "title": "MariaDB GALERA NEW",
+    "title": "MariaDB Galera v25",
     "type": 2
   },
   {
