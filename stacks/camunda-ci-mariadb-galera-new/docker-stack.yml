@@ -5,8 +5,6 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
-    environment:
-      - TRANSACTION_ISOLATION_LEVEL=${TRANSACTION_ISOLATION_LEVEL:-REPEATABLE-READ}
     image: gcr.io/ci-30-162810/mariadb:g25v0.3.2
     ports:
       - 3306/tcp
