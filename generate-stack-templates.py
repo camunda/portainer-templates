@@ -157,3 +157,4 @@ if __name__ == '__main__':
 
   with open('stack-templates.json', 'w') as f:
     json.dump(new_templates, f, sort_keys=True, indent=2)
+    f.write("\n")
