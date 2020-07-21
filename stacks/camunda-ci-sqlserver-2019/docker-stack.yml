@@ -4,10 +4,6 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
-    environment:
-      - FOR_DOCUMENTATION__USERNAME=SA
-      - FOR_DOCUMENTATION__PASSWORD='cam_123$'
-      - FOR_DOCUMENTATION__DATABASE_NAME=camunda
     image: gcr.io/ci-30-162810/mssql:2019v0.1.1
     ports:
       - 1433/tcp
