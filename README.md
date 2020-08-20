@@ -18,7 +18,7 @@ To create a new one:
 2. Edit the file `new-stack-templates.json` to create or duplicate an entry and supply metadata as required, minimum is changed `title` and `description` fields (for Portainer UI) and the correct path in `stackfile` field!
 3. Run `python3 generate-stack-templates.py` to regenerate the `stack-templates.json` which is the definitive file consumed by Portainer
 4. Create a new branch (e.g. use JIRA issue number), check in all modified/new files e.g. via `git add .`
-5. Push the new commit and open a [Pull Request](https://github.com/camunda-ci/portainer-templates/pulls)
+5. Push the new commit and open a [Pull Request](https://github.com/camunda/portainer-templates/pulls)
 6. When the PR is merged it may take some minutes for the change to be available in Portainer UI (due to Github caching)
 
 ## How to modify an existing `stack` type template
@@ -26,5 +26,5 @@ To create a new one:
 1. Modify a `docker-stack.yml` or the file `new-stack-templates.json` as needed
 2. Run `python3 generate-stack-templates.py` to regenerate the `stack-templates.json` which is the definitive file consumed by Portainer
 3. Create a new branch (e.g. use JIRA issue number), check in all modified/new files e.g. via `git add .`
-4. Push the new commit and open a [Pull Request](https://github.com/camunda-ci/portainer-templates/pulls)
+4. Push the new commit and open a [Pull Request](https://github.com/camunda/portainer-templates/pulls)
 5. When the PR is merged it may take some minutes for the change to be available in Portainer UI (due to Github caching)

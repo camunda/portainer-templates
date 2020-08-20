@@ -5,11 +5,11 @@
     ],
     "description": "SQL server 2017",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2017/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2017/docker-stack.yml</a><br/>Username: sa<br/>Password: cam_123$<br/>Database: camunda",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2017/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2017/docker-stack.yml</a><br/>Username: sa<br/>Password: cam_123$<br/>Database: camunda",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-sqlserver-2017/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "SQL server 2017",
     "type": 2
@@ -20,11 +20,11 @@
     ],
     "description": "SQL server 2019",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2019/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2019/docker-stack.yml</a><br/>Username: sa<br/>Password: cam_123$<br/>Database: camunda",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2019/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2019/docker-stack.yml</a><br/>Username: sa<br/>Password: cam_123$<br/>Database: camunda",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-sqlserver-2019/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "SQL server 2019",
     "type": 2
@@ -35,11 +35,11 @@
     ],
     "description": "PostgreSQL v10.7",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-postgresql-10.7/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-postgresql-10.7/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-postgresql-10.7/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-postgresql-10.7/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-postgresql-10.7/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "PostgreSQL v10.7",
     "type": 2
@@ -50,11 +50,11 @@
     ],
     "description": "PostgreSQL v11.2",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-postgresql-11.2/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-postgresql-11.2/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-postgresql-11.2/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-postgresql-11.2/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-postgresql-11.2/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "PostgreSQL v11.2",
     "type": 2
@@ -65,11 +65,11 @@
     ],
     "description": "PostgreSQL v12.2",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-postgresql-12.2/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-postgresql-12.2/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-postgresql-12.2/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-postgresql-12.2/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-postgresql-12.2/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "PostgreSQL v12.2",
     "type": 2
@@ -80,11 +80,11 @@
     ],
     "description": "CockroachDB v20.1.3",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/cockroachdb.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-cockroachdb/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-cockroachdb/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-cockroachdb/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-cockroachdb/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-cockroachdb/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "CockroachDB v20.1.3",
     "type": 2
@@ -101,11 +101,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mariadb.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mariadb-10.3/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mariadb-10.3/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mariadb-10.3/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mariadb-10.3/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-mariadb-10.3/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "MariaDB v10.3",
     "type": 2
@@ -116,11 +116,11 @@
     ],
     "description": "MariaDB Galera v25",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mariadb.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mariadb-galera-new/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mariadb-galera-new/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mariadb-galera-new/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mariadb-galera-new/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-mariadb-galera-new/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "MariaDB Galera v25",
     "type": 2
@@ -151,11 +151,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-714-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-714-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-714-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-714-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/weblogic12r2-714-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.14.x",
     "type": 2
@@ -186,11 +186,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r1-713-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r1-713-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r1-713-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r1-713-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/weblogic12r1-713-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebLogic 12R1 (autosetup): Camunda BPM 7.13.x",
     "type": 2
@@ -221,11 +221,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-79-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-79-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-79-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-79-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/weblogic12r2-79-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.9.x",
     "type": 2
@@ -256,11 +256,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-710-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-710-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-710-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-710-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/weblogic12r2-710-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.10.x",
     "type": 2
@@ -291,11 +291,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-711-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-711-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-711-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-711-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/weblogic12r2-711-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.11.x",
     "type": 2
@@ -326,11 +326,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-712-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-712-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-712-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-712-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/weblogic12r2-712-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.12.x",
     "type": 2
@@ -361,11 +361,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-713-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/weblogic12r2-713-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-713-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-713-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/weblogic12r2-713-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.13.x",
     "type": 2
@@ -396,11 +396,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-714-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-714-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-714-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-714-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/websphere9-714-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.14.x",
     "type": 2
@@ -431,11 +431,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-79-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-79-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-79-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-79-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/websphere9-79-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.9.x",
     "type": 2
@@ -466,11 +466,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-710-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-710-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-710-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-710-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/websphere9-710-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.10.x",
     "type": 2
@@ -501,11 +501,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-711-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-711-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-711-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-711-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/websphere9-711-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.11.x",
     "type": 2
@@ -536,11 +536,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-712-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-712-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-712-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-712-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/websphere9-712-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.12.x",
     "type": 2
@@ -571,11 +571,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-713-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere9-713-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-713-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-713-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/websphere9-713-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.13.x",
     "type": 2
@@ -586,11 +586,11 @@
     ],
     "description": "Oracle v19c Enterprise Edition",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-oracle-19/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-oracle-19/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-oracle-19/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-oracle-19/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-oracle-19/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "Oracle 19c",
     "type": 2
@@ -603,7 +603,7 @@
     "description": "IBM DB2 v9.7 LUW",
     "image": "camunda-ci-db2:9.7",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a>",
     "platform": "linux",
     "ports": [
       "50000/tcp",
@@ -623,7 +623,7 @@
     "description": "IBM DB2 v10.1 LUW",
     "image": "camunda-ci-db2:10.1",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a>",
     "platform": "linux",
     "ports": [
       "50000/tcp",
@@ -643,7 +643,7 @@
     "description": "IBM DB2 v10.5 LUW",
     "image": "camunda-ci-db2:10.5",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a>",
     "platform": "linux",
     "ports": [
       "50000/tcp",
@@ -663,7 +663,7 @@
     "description": "IBM DB2 v11.1 LUW",
     "image": "camunda-ci-db2:11.1",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a>",
     "platform": "linux",
     "ports": [
       "50000/tcp",
@@ -687,11 +687,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mariadb.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mariadb-10.0/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mariadb-10.0/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mariadb-10.0/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mariadb-10.0/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-mariadb-10.0/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "MariaDB v10.0",
     "type": 2
@@ -702,11 +702,11 @@
     ],
     "description": "MariaDB Galera Cluster v10.1",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mariadb.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mariadb-galera/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mariadb-galera/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mariadb-galera/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mariadb-galera/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-mariadb-galera/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "MariaDB Galera v10.1",
     "type": 2
@@ -723,11 +723,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mysql-5.7/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mysql-5.7/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mysql-5.7/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mysql-5.7/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-mysql-5.7/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "MySQL v5.7",
     "type": 2
@@ -744,11 +744,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mysql-5.6/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mysql-5.6/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mysql-5.6/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mysql-5.6/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-mysql-5.6/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "MySQL v5.6",
     "type": 2
@@ -765,11 +765,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mysql-5.5/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-mysql-5.5/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mysql-5.5/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mysql-5.5/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-mysql-5.5/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "MySQL v5.5",
     "type": 2
@@ -780,11 +780,11 @@
     ],
     "description": "Oracle v18c Enterprise Edition",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-oracle-18/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-oracle-18/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-oracle-18/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-oracle-18/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-oracle-18/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "Oracle 18c",
     "type": 2
@@ -795,11 +795,11 @@
     ],
     "description": "Oracle v12c Enterprise Edition",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-oracle-12/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-oracle-12/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-oracle-12/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-oracle-12/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-oracle-12/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "Oracle 12c",
     "type": 2
@@ -810,11 +810,11 @@
     ],
     "description": "Oracle v11g Express Edition",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-oracle-11/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-oracle-11/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-oracle-11/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-oracle-11/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-oracle-11/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "Oracle 11g",
     "type": 2
@@ -825,11 +825,11 @@
     ],
     "description": "Oracle v10g Express Edition",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-oracle-10/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-oracle-10/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-oracle-10/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-oracle-10/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-oracle-10/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "Oracle 10g",
     "type": 2
@@ -840,11 +840,11 @@
     ],
     "description": "PostgreSQL v9.6",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-postgresql-9.6/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-postgresql-9.6/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-postgresql-9.6/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-postgresql-9.6/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-postgresql-9.6/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "PostgreSQL v9.6",
     "type": 2
@@ -855,11 +855,11 @@
     ],
     "description": "PostgreSQL v9.4",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-postgresql-9.4/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-postgresql-9.4/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-postgresql-9.4/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-postgresql-9.4/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-postgresql-9.4/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "PostgreSQL v9.4",
     "type": 2
@@ -870,11 +870,11 @@
     ],
     "description": "PostgreSQL v9.3",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-postgresql-9.3/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-postgresql-9.3/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-postgresql-9.3/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-postgresql-9.3/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-postgresql-9.3/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "PostgreSQL v9.3",
     "type": 2
@@ -887,7 +887,7 @@
     "description": "Microsoft SqlServer Express 2008 for Windows running Qemu in Docker",
     "image": "camunda-ci-sqlserver:2008",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a>",
     "platform": "windows",
     "ports": [
       "1433/tcp",
@@ -907,7 +907,7 @@
     "description": "Microsoft SqlServer Express 2012 for Windows running Qemu in Docker",
     "image": "camunda-ci-sqlserver:2012",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a>",
     "platform": "windows",
     "ports": [
       "1433/tcp",
@@ -927,7 +927,7 @@
     "description": "Microsoft SqlServer Express 2014 for Windows running Qemu in Docker",
     "image": "camunda-ci-sqlserver:2014",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a>",
     "platform": "windows",
     "ports": [
       "1433/tcp",
@@ -945,11 +945,11 @@
     ],
     "description": "Oracle WebLogic Application Server 12R2",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-weblogic-12r2/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebLogic 12R2",
     "type": 2
@@ -976,11 +976,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-postgresql-9.4/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-postgresql-9.4/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-postgresql-9.4/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-postgresql-9.4/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-weblogic-12r2-postgresql-9.4/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebLogic 12R2 + PostgreSQL 9.4",
     "type": 2
@@ -1007,11 +1007,11 @@
       }
     ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-12/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-12/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-12/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-weblogic-12r2-oracle-12/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-weblogic-12r2-oracle-12/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebLogic 12R2 + Oracle 12",
     "type": 2
@@ -1022,11 +1022,11 @@
     ],
     "description": "IBM WebSphere Application Server 9.0 with PostgreSQL 9.1",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-postgresql-9.1/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-postgresql-9.1/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-postgresql-9.1/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-websphere-9.0-postgresql-9.1/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-websphere-9.0-postgresql-9.1/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebSphere 9.0",
     "type": 2
@@ -1055,7 +1055,7 @@
     ],
     "image": "camunda-ci-websphere:9.0-db2-10.5",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a>",
     "platform": "linux",
     "ports": [
       "50000/tcp",
@@ -1074,11 +1074,11 @@
     ],
     "description": "IBM WebSphere Application Server 8.5 with PostgreSQL 9.1",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-8.5-postgresql-9.1/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-8.5-postgresql-9.1/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-websphere-8.5-postgresql-9.1/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-websphere-8.5-postgresql-9.1/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-websphere-8.5-postgresql-9.1/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebSphere 8.5",
     "type": 2
@@ -1089,11 +1089,11 @@
     ],
     "description": "Run /usr/local/bin/switch-2-jdk7.sh before starting WebSphere.",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere-8.5v0.1.0/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/websphere-8.5v0.1.0/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/websphere-8.5v0.1.0/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/websphere-8.5v0.1.0/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/websphere-8.5v0.1.0/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebSphere 8.5 - JDK 7",
     "type": 2
@@ -1122,7 +1122,7 @@
     ],
     "image": "camunda-ci-websphere:8.5-db2-9.7",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a>",
     "platform": "linux",
     "ports": [
       "50000/tcp",
@@ -1141,11 +1141,11 @@
     ],
     "description": "IBM WebSphere Application Server 8.0 with PostgreSQL 9.1",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-8.0-postgresql-9.1/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-websphere-8.0-postgresql-9.1/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-websphere-8.0-postgresql-9.1/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-websphere-8.0-postgresql-9.1/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-websphere-8.0-postgresql-9.1/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebSphere 8.0",
     "type": 2
@@ -1156,11 +1156,11 @@
     ],
     "description": "Camunda CI CentOS base image",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-base-centos-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-base-centos-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-base-centos-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-base-centos-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-base-centos-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "CentOS 7.3",
     "type": 2
@@ -1171,11 +1171,11 @@
     ],
     "description": "Camunda CI Ubuntu base image",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-base-ubuntu-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-ci-base-ubuntu-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-base-ubuntu-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-base-ubuntu-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-base-ubuntu-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "Ubuntu",
     "type": 2
@@ -1187,11 +1187,11 @@
     ],
     "description": "Camunda BPM platform latest snapshot running on Tomcat",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-snapshot/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-snapshot/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-snapshot/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-snapshot/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-camunda-bpm-platform-tomcat-snapshot/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "Camunda BPM SNAPSHOT Tomcat",
     "type": 2
@@ -1203,11 +1203,11 @@
     ],
     "description": "Camunda BPM platform latest official release running on Tomcat",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-latest/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-latest/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-latest/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-camunda-bpm-platform-tomcat-latest/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "Camunda BPM LATEST Tomcat",
     "type": 2
@@ -1219,11 +1219,11 @@
     ],
     "description": "Camunda BPM platform 7.8.0 running on Tomcat",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.8.0/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.8.0/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.8.0/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.8.0/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-camunda-bpm-platform-tomcat-7.8.0/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "Camunda BPM 7.8.0 Tomcat",
     "type": 2
@@ -1235,11 +1235,11 @@
     ],
     "description": "Camunda BPM platform 7.7.0 running on Tomcat",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.7.0/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.7.0/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.7.0/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.7.0/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-camunda-bpm-platform-tomcat-7.7.0/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "Camunda BPM 7.7.0 Tomcat",
     "type": 2
@@ -1251,11 +1251,11 @@
     ],
     "description": "Camunda BPM platform 7.6.0 running on Tomcat",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.6.0/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.6.0/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.6.0/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.6.0/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-camunda-bpm-platform-tomcat-7.6.0/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "Camunda BPM 7.6.0 Tomcat",
     "type": 2
@@ -1267,11 +1267,11 @@
     ],
     "description": "Camunda BPM platform 7.5.0 running on Tomcat",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "note": "List: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda-ci/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.5.0/docker-stack.yml\">https://github.com/camunda-ci/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.5.0/docker-stack.yml</a>",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.5.0/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.5.0/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-camunda-bpm-platform-tomcat-7.5.0/docker-stack.yml",
-      "url": "https://github.com/camunda-ci/portainer-templates"
+      "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "Camunda BPM 7.5.0 Tomcat",
     "type": 2
