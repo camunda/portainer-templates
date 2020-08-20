@@ -1,18 +1,12 @@
----
 services:
   main:
-    command: start --insecure
     deploy:
       restart_policy:
         condition: on-failure
     environment: []
-    image: registry.camunda.cloud/team-cambpm/camunda-ci-cockroachdb:20.1.3
+    image: gcr.io/ci-30-162810/cockroachdb:20.1v0.1.3
     ports:
       - 26257/tcp
       - 8080/tcp
-    volumes:
-      - ./cockroach-data/roach1:/cockroach/cockroach-data
     restart: on-failure
 version: '3'
-
-
