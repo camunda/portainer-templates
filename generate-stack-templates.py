@@ -6,7 +6,7 @@ import os
 import re
 import yaml
 
-GITHUB_REPOSITORY_URL = 'https://github.com/camunda-ci/portainer-templates'
+GITHUB_REPOSITORY_URL = 'https://github.com/camunda/portainer-templates'
 GITHUB_REPOSITORY_BRANCH = 'master'
 
 # via http://pyyaml.org/ticket/64 and http://signal0.com/2013/02/06/disabling_aliases_in_pyyaml.html
