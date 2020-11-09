@@ -80,7 +80,7 @@
     ],
     "description": "CockroachDB v20.1.3",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/cockroachdb.png",
-    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-cockroachdb-20.1/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-cockroachdb-20.1/docker-stack.yml</a>",    
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-cockroachdb-20.1/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-cockroachdb-20.1/docker-stack.yml</a>",
     "platform": "linux",
     "repository": {
       "stackfile": "stacks/camunda-ci-cockroachdb-20.1/docker-stack.yml",
@@ -158,6 +158,41 @@
       "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.14.x",
+    "type": 2
+  },
+  {
+    "categories": [
+      "server"
+    ],
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",
+    "env": [
+      {
+        "label": "Database Host",
+        "name": "DATABASE_HOST"
+      },
+      {
+        "label": "Database Port",
+        "name": "DATABASE_PORT"
+      },
+      {
+        "default": "XE",
+        "label": "Database Name",
+        "name": "DATABASE_NAME"
+      },
+      {
+        "default": "oracle",
+        "label": "Database Type (oracle, postgres, h2)",
+        "name": "DATABASE_TYPE"
+      }
+    ],
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-715-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-715-latest/docker-stack.yml</a>",
+    "platform": "linux",
+    "repository": {
+      "stackfile": "stacks/weblogic12r2-715-latest/docker-stack.yml",
+      "url": "https://github.com/camunda/portainer-templates"
+    },
+    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.15.x",
     "type": 2
   },
   {
@@ -403,6 +438,41 @@
       "url": "https://github.com/camunda/portainer-templates"
     },
     "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.14.x",
+    "type": 2
+  },
+  {
+    "categories": [
+      "server"
+    ],
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",
+    "env": [
+      {
+        "label": "Database Host",
+        "name": "DATABASE_HOST"
+      },
+      {
+        "label": "Database Port",
+        "name": "DATABASE_PORT"
+      },
+      {
+        "default": "engine",
+        "label": "Database Name",
+        "name": "DATABASE_NAME"
+      },
+      {
+        "default": "db2",
+        "label": "Database Type (h2, oracle, db2)",
+        "name": "DATABASE_TYPE"
+      }
+    ],
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-715-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/websphere9-715-latest/docker-stack.yml</a>",
+    "platform": "linux",
+    "repository": {
+      "stackfile": "stacks/websphere9-715-latest/docker-stack.yml",
+      "url": "https://github.com/camunda/portainer-templates"
+    },
+    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.15.x",
     "type": 2
   },
   {
