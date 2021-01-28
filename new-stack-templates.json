@@ -157,7 +157,7 @@
       "stackfile": "stacks/weblogic12r2-714-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.14.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.14.x",
     "type": 2
   },
   {
@@ -192,7 +192,7 @@
       "stackfile": "stacks/weblogic12r2-715-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.15.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.15.x",
     "type": 2
   },
   {
@@ -227,7 +227,7 @@
       "stackfile": "stacks/weblogic12r1-713-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R1 (autosetup): Camunda BPM 7.13.x",
+    "title": "WebLogic 12R1 (autosetup): Camunda Platform 7.13.x",
     "type": 2
   },
   {
@@ -262,7 +262,7 @@
       "stackfile": "stacks/weblogic12r2-79-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.9.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.9.x",
     "type": 2
   },
   {
@@ -297,7 +297,7 @@
       "stackfile": "stacks/weblogic12r2-710-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.10.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.10.x",
     "type": 2
   },
   {
@@ -332,7 +332,7 @@
       "stackfile": "stacks/weblogic12r2-711-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.11.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.11.x",
     "type": 2
   },
   {
@@ -367,7 +367,7 @@
       "stackfile": "stacks/weblogic12r2-712-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.12.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.12.x",
     "type": 2
   },
   {
@@ -402,7 +402,7 @@
       "stackfile": "stacks/weblogic12r2-713-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.13.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.13.x",
     "type": 2
   },
   {
@@ -437,7 +437,7 @@
       "stackfile": "stacks/websphere9-714-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.14.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.14.x",
     "type": 2
   },
   {
@@ -472,7 +472,7 @@
       "stackfile": "stacks/websphere9-715-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.15.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.15.x",
     "type": 2
   },
   {
@@ -507,7 +507,7 @@
       "stackfile": "stacks/websphere9-79-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.9.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.9.x",
     "type": 2
   },
   {
@@ -542,7 +542,7 @@
       "stackfile": "stacks/websphere9-710-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.10.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.10.x",
     "type": 2
   },
   {
@@ -577,7 +577,7 @@
       "stackfile": "stacks/websphere9-711-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.11.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.11.x",
     "type": 2
   },
   {
@@ -612,7 +612,7 @@
       "stackfile": "stacks/websphere9-712-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.12.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.12.x",
     "type": 2
   },
   {
@@ -647,7 +647,7 @@
       "stackfile": "stacks/websphere9-713-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.13.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.13.x",
     "type": 2
   },
   {
