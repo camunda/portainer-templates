@@ -1,6 +1,20 @@
 [
   {
     "categories": [
+      "misc"
+    ],
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/automationanywhere/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/automationanywhere/docker-stack.yml</a>",
+    "platform": "linux",
+    "repository": {
+      "stackfile": "stacks/automationanywhere/docker-stack.yml",
+      "url": "https://github.com/camunda/portainer-templates"
+    },
+    "title": "Automation Anywhere Server A2019",
+    "type": 2
+  },
+  {
+    "categories": [
       "database"
     ],
     "description": "SQL server 2017",

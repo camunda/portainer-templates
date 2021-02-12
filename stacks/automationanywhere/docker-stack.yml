@@ -1,0 +1,13 @@
+---
+services:
+  main:
+    command: /start-aa.sh
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: registry.camunda.cloud/team-cambpm/automationanywhere:A2019-8098
+    ports:
+      - 80/tcp
+      - 443/tcp
+    restart: on-failure
+version: '3'
