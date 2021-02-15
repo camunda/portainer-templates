@@ -5,9 +5,12 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
+    environment:
+      - HTTP_PORT=${HTTP_PORT}
+      - HTTPS_PORT=${HTTPS_PORT}
     image: registry.camunda.cloud/team-cambpm/automationanywhere:A2019-8098
     ports:
-      - "1180:1180"
-      - "11443:11443"
+      - ${HTTP_PORT}:${HTTP_PORT}
+      - ${HTTPS_PORT}:${HTTPS_PORT}
     restart: on-failure
 version: '3'
