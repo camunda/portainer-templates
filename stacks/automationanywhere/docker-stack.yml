@@ -8,7 +8,7 @@ services:
     environment:
       - HTTP_PORT=${HTTP_PORT}
       - HTTPS_PORT=${HTTPS_PORT}
-    image: registry.camunda.cloud/team-cambpm/automationanywhere:A2019-8098
+    image: registry.camunda.cloud/team-cambpm/automationanywhere:A2019-8098-V2
     ports:
       - ${HTTP_PORT}:${HTTP_PORT}
       - ${HTTPS_PORT}:${HTTPS_PORT}
