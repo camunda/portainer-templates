@@ -7,7 +7,7 @@ services:
         condition: on-failure
     image: registry.camunda.cloud/team-cambpm/automationanywhere:A2019-8098
     ports:
-      - 80/tcp
-      - 443/tcp
+      - "1180:1180"
+      - "11443:11443"
     restart: on-failure
 version: '3'
