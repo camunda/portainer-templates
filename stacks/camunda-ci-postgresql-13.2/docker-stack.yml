@@ -1,0 +1,11 @@
+---
+services:
+  main:
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: gcr.io/ci-30-162810/postgresql:13.2v0.1.0
+    ports:
+      - 5432/tcp
+    restart: on-failure
+version: '3'
