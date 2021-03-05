@@ -1,0 +1,14 @@
+---
+services:
+  main:
+    command: /usr/local/bin/start-container.sh
+    deploy:
+      restart_policy:
+        condition: on-failure
+    environment: []
+    image: gcr.io/ci-30-162810/postgresql:10.13v0.1.0
+    ports:
+      - 5432/tcp
+      - 22/tcp
+    restart: on-failure
+version: '3'
