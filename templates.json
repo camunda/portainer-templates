@@ -590,8 +590,8 @@
 
   {
     "type": 1,
-    "title": "Camunda BPM SNAPSHOT Tomcat",
-    "description": "Camunda BPM platform latest snapshot running on Tomcat",
+    "title": "Camunda Platform SNAPSHOT Tomcat",
+    "description": "Camunda Platform latest snapshot running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
@@ -603,8 +603,8 @@
   },
   {
     "type": 1,
-    "title": "Camunda BPM LATEST Tomcat",
-    "description": "Camunda BPM platform latest official release running on Tomcat",
+    "title": "Camunda Platform LATEST Tomcat",
+    "description": "Camunda Platform latest official release running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
@@ -616,8 +616,8 @@
   },
   {
     "type": 1,
-    "title": "Camunda BPM 7.8.0 Tomcat",
-    "description": "Camunda BPM platform 7.8.0 running on Tomcat",
+    "title": "Camunda Platform 7.8.0 Tomcat",
+    "description": "Camunda Platform 7.8.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
@@ -629,8 +629,8 @@
   },
   {
     "type": 1,
-    "title": "Camunda BPM 7.7.0 Tomcat",
-    "description": "Camunda BPM platform 7.7.0 running on Tomcat",
+    "title": "Camunda Platform 7.7.0 Tomcat",
+    "description": "Camunda Platform 7.7.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
@@ -642,8 +642,8 @@
   },
   {
     "type": 1,
-    "title": "Camunda BPM 7.6.0 Tomcat",
-    "description": "Camunda BPM platform 7.6.0 running on Tomcat",
+    "title": "Camunda Platform 7.6.0 Tomcat",
+    "description": "Camunda Platform 7.6.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
@@ -655,8 +655,8 @@
   },
   {
     "type": 1,
-    "title": "Camunda BPM 7.5.0 Tomcat",
-    "description": "Camunda BPM platform 7.5.0 running on Tomcat",
+    "title": "Camunda Platform 7.5.0 Tomcat",
+    "description": "Camunda Platform 7.5.0 running on Tomcat",
     "categories": ["camunda", "camunda tomcat"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",

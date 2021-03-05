@@ -213,7 +213,7 @@
       "stackfile": "stacks/weblogic12r2-714-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.14.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.14.x",
     "type": 2
   },
   {
@@ -248,7 +248,7 @@
       "stackfile": "stacks/weblogic12r2-715-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.15.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.15.x",
     "type": 2
   },
   {
@@ -283,7 +283,7 @@
       "stackfile": "stacks/weblogic12r1-713-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R1 (autosetup): Camunda BPM 7.13.x",
+    "title": "WebLogic 12R1 (autosetup): Camunda Platform 7.13.x",
     "type": 2
   },
   {
@@ -318,7 +318,7 @@
       "stackfile": "stacks/weblogic12r2-79-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.9.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.9.x",
     "type": 2
   },
   {
@@ -353,7 +353,7 @@
       "stackfile": "stacks/weblogic12r2-710-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.10.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.10.x",
     "type": 2
   },
   {
@@ -388,7 +388,7 @@
       "stackfile": "stacks/weblogic12r2-711-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.11.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.11.x",
     "type": 2
   },
   {
@@ -423,7 +423,7 @@
       "stackfile": "stacks/weblogic12r2-712-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.12.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.12.x",
     "type": 2
   },
   {
@@ -458,7 +458,7 @@
       "stackfile": "stacks/weblogic12r2-713-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebLogic 12R2 (autosetup): Camunda BPM 7.13.x",
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.13.x",
     "type": 2
   },
   {
@@ -493,7 +493,7 @@
       "stackfile": "stacks/websphere9-714-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.14.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.14.x",
     "type": 2
   },
   {
@@ -528,7 +528,7 @@
       "stackfile": "stacks/websphere9-715-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.15.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.15.x",
     "type": 2
   },
   {
@@ -563,7 +563,7 @@
       "stackfile": "stacks/websphere9-79-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.9.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.9.x",
     "type": 2
   },
   {
@@ -598,7 +598,7 @@
       "stackfile": "stacks/websphere9-710-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.10.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.10.x",
     "type": 2
   },
   {
@@ -633,7 +633,7 @@
       "stackfile": "stacks/websphere9-711-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.11.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.11.x",
     "type": 2
   },
   {
@@ -668,7 +668,7 @@
       "stackfile": "stacks/websphere9-712-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.12.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.12.x",
     "type": 2
   },
   {
@@ -703,7 +703,7 @@
       "stackfile": "stacks/websphere9-713-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "WebSphere 9.0 (autosetup): Camunda BPM 7.13.x",
+    "title": "WebSphere 9.0 (autosetup): Camunda Platform 7.13.x",
     "type": 2
   },
   {
@@ -1311,7 +1311,7 @@
       "camunda",
       "camunda tomcat"
     ],
-    "description": "Camunda BPM platform latest snapshot running on Tomcat",
+    "description": "Camunda Platform latest snapshot running on Tomcat",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-snapshot/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-snapshot/docker-stack.yml</a>",
     "platform": "linux",
@@ -1319,7 +1319,7 @@
       "stackfile": "stacks/camunda-camunda-bpm-platform-tomcat-snapshot/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "Camunda BPM SNAPSHOT Tomcat",
+    "title": "Camunda Platform SNAPSHOT Tomcat",
     "type": 2
   },
   {
@@ -1327,7 +1327,7 @@
       "camunda",
       "camunda tomcat"
     ],
-    "description": "Camunda BPM platform latest official release running on Tomcat",
+    "description": "Camunda Platform latest official release running on Tomcat",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-latest/docker-stack.yml</a>",
     "platform": "linux",
@@ -1335,7 +1335,7 @@
       "stackfile": "stacks/camunda-camunda-bpm-platform-tomcat-latest/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "Camunda BPM LATEST Tomcat",
+    "title": "Camunda Platform LATEST Tomcat",
     "type": 2
   },
   {
@@ -1343,7 +1343,7 @@
       "camunda",
       "camunda tomcat"
     ],
-    "description": "Camunda BPM platform 7.8.0 running on Tomcat",
+    "description": "Camunda Platform 7.8.0 running on Tomcat",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.8.0/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.8.0/docker-stack.yml</a>",
     "platform": "linux",
@@ -1351,7 +1351,7 @@
       "stackfile": "stacks/camunda-camunda-bpm-platform-tomcat-7.8.0/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "Camunda BPM 7.8.0 Tomcat",
+    "title": "Camunda Platform 7.8.0 Tomcat",
     "type": 2
   },
   {
@@ -1359,7 +1359,7 @@
       "camunda",
       "camunda tomcat"
     ],
-    "description": "Camunda BPM platform 7.7.0 running on Tomcat",
+    "description": "Camunda Platform 7.7.0 running on Tomcat",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.7.0/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.7.0/docker-stack.yml</a>",
     "platform": "linux",
@@ -1367,7 +1367,7 @@
       "stackfile": "stacks/camunda-camunda-bpm-platform-tomcat-7.7.0/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "Camunda BPM 7.7.0 Tomcat",
+    "title": "Camunda Platform 7.7.0 Tomcat",
     "type": 2
   },
   {
@@ -1375,7 +1375,7 @@
       "camunda",
       "camunda tomcat"
     ],
-    "description": "Camunda BPM platform 7.6.0 running on Tomcat",
+    "description": "Camunda Platform 7.6.0 running on Tomcat",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.6.0/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.6.0/docker-stack.yml</a>",
     "platform": "linux",
@@ -1383,7 +1383,7 @@
       "stackfile": "stacks/camunda-camunda-bpm-platform-tomcat-7.6.0/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "Camunda BPM 7.6.0 Tomcat",
+    "title": "Camunda Platform 7.6.0 Tomcat",
     "type": 2
   },
   {
@@ -1391,7 +1391,7 @@
       "camunda",
       "camunda tomcat"
     ],
-    "description": "Camunda BPM platform 7.5.0 running on Tomcat",
+    "description": "Camunda Platform 7.5.0 running on Tomcat",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.5.0/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-camunda-bpm-platform-tomcat-7.5.0/docker-stack.yml</a>",
     "platform": "linux",
@@ -1399,7 +1399,7 @@
       "stackfile": "stacks/camunda-camunda-bpm-platform-tomcat-7.5.0/docker-stack.yml",
       "url": "https://github.com/camunda/portainer-templates"
     },
-    "title": "Camunda BPM 7.5.0 Tomcat",
+    "title": "Camunda Platform 7.5.0 Tomcat",
     "type": 2
   }
 ]
