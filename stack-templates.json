@@ -348,6 +348,41 @@
       }
     ], 
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png", 
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-717-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r2-717-latest/docker-stack.yml</a>", 
+    "platform": "linux", 
+    "repository": {
+      "stackfile": "stacks/weblogic12r2-717-latest/docker-stack.yml", 
+      "url": "https://github.com/camunda/portainer-templates"
+    }, 
+    "title": "WebLogic 12R2 (autosetup): Camunda Platform 7.17.x", 
+    "type": 2
+  }, 
+  {
+    "categories": [
+      "server"
+    ], 
+    "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!", 
+    "env": [
+      {
+        "label": "Database Host", 
+        "name": "DATABASE_HOST"
+      }, 
+      {
+        "label": "Database Port", 
+        "name": "DATABASE_PORT"
+      }, 
+      {
+        "default": "XE", 
+        "label": "Database Name", 
+        "name": "DATABASE_NAME"
+      }, 
+      {
+        "default": "oracle", 
+        "label": "Database Type (oracle, postgres, h2)", 
+        "name": "DATABASE_TYPE"
+      }
+    ], 
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png", 
     "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r1-713-latest/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/weblogic12r1-713-latest/docker-stack.yml</a>", 
     "platform": "linux", 
     "repository": {
