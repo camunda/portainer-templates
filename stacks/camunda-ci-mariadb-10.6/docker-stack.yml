@@ -1,0 +1,11 @@
+---
+services:
+  main:
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: gcr.io/ci-30-162810/mariadb:10.6v0.1.0
+    ports:
+      - 3306/tcp
+    restart: on-failure
+version: '3'
