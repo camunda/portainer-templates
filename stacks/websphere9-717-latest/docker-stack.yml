@@ -10,7 +10,7 @@ services:
       - DATABASE_PORT=${DATABASE_PORT}
       - DATABASE_NAME=${DATABASE_NAME}
       - DATABASE_TYPE=${DATABASE_TYPE}
-    image: registry.camunda.cloud/team-cambpm/websphere9:7.17.0-alpha1-ee
+    image: registry.camunda.cloud/team-cambpm/websphere9:7.17.0-alpha2-ee
     ports:
       - 9060/tcp
       - 9080/tcp
