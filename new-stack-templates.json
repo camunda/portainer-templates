@@ -240,6 +240,22 @@
   },
   {
     "categories": [
+      "database"
+    ],
+    "description": "IBM DB2 v11.5",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-db2-11.5/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-db2-11.5/docker-stack.yml</a><br/>Username: camunda<br/>Password: camunda<br/>Database: engine",
+    "platform": "linux",
+    "repository": {
+      "stackfile": "stacks/camunda-ci-db2-11.5/docker-stack.yml",
+      "url": "https://github.com/camunda/portainer-templates"
+    },
+    "privileged": true,
+    "title": "DB2 v11.5",
+    "type": 2
+  },
+  {
+    "categories": [
       "server"
     ],
     "description": "NOTE: Please first start a database container and fill out the database fields before creating this container!",

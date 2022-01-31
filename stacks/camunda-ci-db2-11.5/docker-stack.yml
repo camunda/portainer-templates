@@ -1,0 +1,12 @@
+---
+services:
+  main:
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: gcr.io/ci-30-162810/db2:11.5v0.1.0
+    ports:
+    - 50000/tcp
+    - 22/tcp
+    restart: on-failure
+version: '3'
