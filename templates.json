@@ -67,7 +67,23 @@
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
-
+  {
+    "type": 1,
+    "title": "DB2 v11.5",
+    "description": "IBM DB2 v11.5 LUW",
+    "categories": ["database"],
+    "platform": "linux",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
+    "image": "db2:11.5v0.1.0",
+    "ports": [
+      "50000/tcp",
+      "22/tcp"
+    ],
+    "privileged": true,
+    "registry": "gcr.io/ci-30-162810",
+    "command": "/usr/local/bin/start-container.sh",
+    "restart_policy": "on-failure"
+  },
   {
     "type": 1,
     "title": "MariaDB v10.0",

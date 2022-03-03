@@ -28,3 +28,16 @@ To create a new one:
 3. Create a new branch (e.g. use JIRA issue number), check in all modified/new files e.g. via `git add .`
 4. Push the new commit and open a [Pull Request](https://github.com/camunda/portainer-templates/pulls)
 5. When the PR is merged it may take some minutes for the change to be available in Portainer UI (due to Github caching)
+
+## How to create a new `container` type template
+
+A `container` type template consists only of an entry in the `templates.json`  that includes some metadata about the template
+and the docker image to run. 
+
+To create a new one:
+
+1. Edit the file `templates.json` to create an entry for the new template. You can check the file for how the changes should look like.
+2. Run `python3 generate-stack-templates.py` to regenerate the `stack-templates.json` which is the definitive file consumed by Portainer
+3. Create a new branch (e.g. use JIRA issue number), check in all modified/new files e.g. via `git add .`
+4. Push the new commit and open a [Pull Request](https://github.com/camunda/portainer-templates/pulls)
+5. When the PR is merged it may take some minutes for the change to be available in Portainer UI (due to Github caching)
