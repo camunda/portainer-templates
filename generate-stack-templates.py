@@ -34,7 +34,7 @@ def get_image(old_template):
     # Private registries can be used successfully in stack templates,
     # so convert from anonymousproxy which has to be used for container templates
     # TODO: eventually we can drop container templates successfully if stack templates work fine!
-    if old_template['registry'] == 'anonymousproxy:8081':
+    if old_template['registry'] == 'registry.camunda.cloud/team-cambpm':
       if old_template['image'].startswith('camunda-ci-websphere:'): # or old_template['image'].startswith('camunda-ci-weblogic:'):
         return "registry.camunda.cloud/team-cambpm/%s-port" % old_template['image']
       else:
