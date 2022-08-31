@@ -6,13 +6,13 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-db2:9.7",
+    "image": "team-cambpm/camunda-ci-db2:9.7",
     "ports": [
       "50000/tcp",
       "22/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -23,13 +23,13 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-db2:10.1",
+    "image": "team-cambpm/camunda-ci-db2:10.1",
     "ports": [
       "50000/tcp",
       "22/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -40,13 +40,13 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-db2:10.5",
+    "image": "team-cambpm/camunda-ci-db2:10.5",
     "ports": [
       "50000/tcp",
       "22/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -57,13 +57,13 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-db2:11.1",
+    "image": "team-cambpm/camunda-ci-db2:11.1",
     "ports": [
       "50000/tcp",
       "22/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -91,7 +91,7 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mariadb.png",
-    "image": "camunda-ci-mariadb:10.0",
+    "image": "team-cambpm/camunda-ci-mariadb:10.0",
     "ports": [
       "3306/tcp",
       "22/tcp"
@@ -102,7 +102,7 @@
         "label": "READ-COMMITTED"
       }
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -113,12 +113,12 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mariadb.png",
-    "image": "camunda-ci-mariadb:galera",
+    "image": "team-cambpm/camunda-ci-mariadb:galera",
     "ports": [
       "3306/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -130,7 +130,7 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
-    "image": "camunda-ci-mysql:5.7",
+    "image": "team-cambpm/camunda-ci-mysql:5.7",
     "ports": [
       "3306/tcp",
       "22/tcp"
@@ -141,7 +141,7 @@
         "label": "READ-COMMITTED"
       }
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -152,7 +152,7 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
-    "image": "camunda-ci-mysql:5.6",
+    "image": "team-cambpm/camunda-ci-mysql:5.6",
     "ports": [
       "3306/tcp",
       "22/tcp"
@@ -163,7 +163,7 @@
         "label": "READ-COMMITTED"
       }
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -174,7 +174,7 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
-    "image": "camunda-ci-mysql:5.5",
+    "image": "team-cambpm/camunda-ci-mysql:5.5",
     "ports": [
       "3306/tcp",
       "22/tcp"
@@ -185,7 +185,7 @@
         "label": "READ-COMMITTED"
       }
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -197,12 +197,12 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-oracle:18",
+    "image": "team-cambpm/camunda-ci-oracle:18",
     "ports": [
       "1521/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -213,12 +213,12 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-oracle:12",
+    "image": "team-cambpm/camunda-ci-oracle:12",
     "ports": [
       "1521/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -229,12 +229,12 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-oracle:11",
+    "image": "team-cambpm/camunda-ci-oracle:11",
     "ports": [
       "1521/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -245,12 +245,12 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-oracle:10",
+    "image": "team-cambpm/camunda-ci-oracle:10",
     "ports": [
       "1521/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -262,12 +262,12 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
-    "image": "camunda-ci-postgresql:9.6",
+    "image": "team-cambpm/camunda-ci-postgresql:9.6",
     "ports": [
       "5432/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -278,12 +278,12 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
-    "image": "camunda-ci-postgresql:9.4",
+    "image": "team-cambpm/camunda-ci-postgresql:9.4",
     "ports": [
       "5432/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -294,12 +294,12 @@
     "categories": ["database"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
-    "image": "camunda-ci-postgresql:9.3",
+    "image": "team-cambpm/camunda-ci-postgresql:9.3",
     "ports": [
       "5432/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -311,13 +311,13 @@
     "categories": ["database"],
     "platform": "windows",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
-    "image": "camunda-ci-sqlserver:2008",
+    "image": "team-cambpm/camunda-ci-sqlserver:2008",
     "ports": [
       "1433/tcp",
       "5900/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-qemu.sh",
     "restart_policy": "on-failure"
   },
@@ -328,13 +328,13 @@
     "categories": ["database"],
     "platform": "windows",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
-    "image": "camunda-ci-sqlserver:2012",
+    "image": "team-cambpm/camunda-ci-sqlserver:2012",
     "ports": [
       "1433/tcp",
       "5900/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-qemu.sh",
     "restart_policy": "on-failure"
   },
@@ -345,13 +345,13 @@
     "categories": ["database"],
     "platform": "windows",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
-    "image": "camunda-ci-sqlserver:2014",
+    "image": "team-cambpm/camunda-ci-sqlserver:2014",
     "ports": [
       "1433/tcp",
       "5900/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-qemu.sh",
     "restart_policy": "on-failure"
   },
@@ -363,12 +363,12 @@
     "categories": ["server"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-weblogic:12R2",
+    "image": "team-cambpm/camunda-ci-weblogic:12R2",
     "ports": [
       "7001/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -380,13 +380,13 @@
     "categories": ["server"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-weblogic:12R2-postgresql-9.4",
+    "image": "team-cambpm/camunda-ci-weblogic:12R2-postgresql-9.4",
     "ports": [
       "7001/tcp",
       "5432/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure",
     "env": [
@@ -413,13 +413,13 @@
     "categories": ["server"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-weblogic:12R2-oracle-12",
+    "image": "team-cambpm/camunda-ci-weblogic:12R2-oracle-12",
     "ports": [
       "7001/tcp",
       "1521/tcp",
       "22/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure",
     "env": [
@@ -446,13 +446,13 @@
     "categories": ["server"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-websphere:9.0-postgresql-9.1",
+    "image": "team-cambpm/camunda-ci-websphere:9.0-postgresql-9.1",
     "ports": [
       "5432/tcp",
       "9060/tcp",
       "9080/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -463,14 +463,14 @@
     "categories": ["server"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-websphere:9.0-db2-10.5",
+    "image": "team-cambpm/camunda-ci-websphere:9.0-db2-10.5",
     "ports": [
       "50000/tcp",
       "9060/tcp",
       "9080/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure",
     "env": [
@@ -496,13 +496,13 @@
     "categories": ["server"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-websphere:8.5-postgresql-9.1",
+    "image": "team-cambpm/camunda-ci-websphere:8.5-postgresql-9.1",
     "ports": [
       "5432/tcp",
       "9060/tcp",
       "9080/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -513,13 +513,13 @@
     "categories": ["server"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "websphere:8.5v0.1.0",
+    "image": "team-cambpm/websphere:8.5v0.1.0",
     "ports": [
       "5432/tcp",
       "9060/tcp",
       "9080/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "restart_policy": "on-failure"
   },
   {
@@ -529,14 +529,14 @@
     "categories": ["server"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-websphere:8.5-db2-9.7",
+    "image": "team-cambpm/camunda-ci-websphere:8.5-db2-9.7",
     "ports": [
       "50000/tcp",
       "9060/tcp",
       "9080/tcp"
     ],
     "privileged": true,
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure",
     "env": [
@@ -562,13 +562,13 @@
     "categories": ["server"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-websphere:8.0-postgresql-9.1",
+    "image": "team-cambpm/camunda-ci-websphere:8.0-postgresql-9.1",
     "ports": [
       "5432/tcp",
       "9060/tcp",
       "9080/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -580,11 +580,11 @@
     "categories": ["os"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-base-centos:latest",
+    "image": "team-cambpm/camunda-ci-base-centos:latest",
     "ports": [
       "22/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },
@@ -595,11 +595,11 @@
     "categories": ["os"],
     "platform": "linux",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-    "image": "camunda-ci-base-ubuntu:latest",
+    "image": "team-cambpm/camunda-ci-base-ubuntu:latest",
     "ports": [
       "22/tcp"
     ],
-    "registry": "registry.camunda.cloud/team-cambpm",
+    "registry": "registry.camunda.cloud",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },

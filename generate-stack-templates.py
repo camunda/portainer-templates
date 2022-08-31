@@ -27,18 +27,18 @@ def mkdir_p(path):
       raise
 
 def get_folder(old_template):
-  return re.sub('[^a-z0-9.-]', '-', old_template['image'].lower())
+  return re.sub('[^a-z0-9.-]', '-', old_template['image'].replace('team-cambpm/','').lower())
 
 def get_image(old_template):
   if 'registry' in old_template:
     # Private registries can be used successfully in stack templates,
     # so convert from anonymousproxy which has to be used for container templates
     # TODO: eventually we can drop container templates successfully if stack templates work fine!
-    if old_template['registry'] == 'registry.camunda.cloud/team-cambpm':
-      if old_template['image'].startswith('camunda-ci-websphere:'): # or old_template['image'].startswith('camunda-ci-weblogic:'):
-        return "registry.camunda.cloud/team-cambpm/%s-port" % old_template['image']
+    if old_template['registry'] == 'registry.camunda.cloud':
+      if old_template['image'].startswith('team-cambpm/camunda-ci-websphere:'): # or old_template['image'].startswith('camunda-ci-weblogic:'):
+        return "registry.camunda.cloud/%s-port" % old_template['image']
       else:
-        return "registry.camunda.cloud/team-cambpm/%s" % old_template['image']
+        return "registry.camunda.cloud/%s" % old_template['image']
     else:
       return "%s/%s" % (old_template['registry'], old_template['image'])
   else:
@@ -61,7 +61,7 @@ def generate_docker_stack(old_template, file):
       }
     }
   }
-  if old_template['image'].startswith('camunda-ci-websphere:'):
+  if old_template['image'].startswith('team-cambpm/camunda-ci-websphere:'):
     stack['services']['main']['environment'].append("WAS_ADMINHOST_PORT=9060")
     stack['services']['main']['environment'].append("WAS_DEFAULTHOST_PORT=9080")
   # if old_template['image'].startswith('camunda-ci-weblogic:'):
