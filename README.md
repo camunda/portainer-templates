@@ -1,4 +1,10 @@
-# Portainer Templates
+<h1 align="center">Portainer Templates</h1>
+<p align="center">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/camunda/portainer-templates">
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/camunda/portainer-templates">
+<img alt="GitHub starts" src="https://img.shields.io/github/stars/camunda/portainer-templates">
+<img alt="GitHub licenses" src="https://img.shields.io/github/license/camunda/portainer-templates"> 
+</p>
 
 There are two types of [Portainer](https://www.portainer.io/) templates:
 
