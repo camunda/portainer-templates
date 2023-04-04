@@ -1,0 +1,17 @@
+---
+services:
+  main:
+    command: /home/camunda/start_container.sh
+    deploy:
+      restart_policy:
+        condition: on-failure
+    environment:
+      - DATABASE_HOST=${DATABASE_HOST}
+      - DATABASE_PORT=${DATABASE_PORT}
+      - DATABASE_NAME=${DATABASE_NAME}
+      - DATABASE_TYPE=${DATABASE_TYPE}
+    image: registry.camunda.cloud/team-cambpm/weblogic14r1:7.20.0-SNAPSHOT
+    ports:
+      - 7001/tcp
+    restart: on-failure
+version: '3'
