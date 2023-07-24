@@ -10,9 +10,9 @@ services:
       - DATABASE_PORT=${DATABASE_PORT}
       - DATABASE_NAME=${DATABASE_NAME}
       - DATABASE_TYPE=${DATABASE_TYPE}
-    image: registry.camunda.cloud/team-cambpm/websphere9:7.17.14-ee
+    image: registry.camunda.cloud/team-cambpm/websphere9:7.17.15-ee
     ports:
       - 9060/tcp
       - 9080/tcp
     restart: on-failure
-version: '3'
+version: "3"
