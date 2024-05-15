@@ -6,7 +6,7 @@ services:
       restart_policy:
         condition: on-failure
     environment: []
-    image: gcr.io/ci-30-162810/oracle:19v0.2.2
+    image: europe-west1-docker.pkg.dev/ci-30-162810/main/oracle:19v0.2.2
     ports:
       - 1521/tcp
       - 22/tcp

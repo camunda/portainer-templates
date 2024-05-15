@@ -5,7 +5,7 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
-    image: gcr.io/ci-30-162810/mariadb:g25v0.3.2
+    image: europe-west1-docker.pkg.dev/ci-30-162810/main/mariadb:g25v0.3.2
     ports:
       - 3306/tcp
       - 22/tcp

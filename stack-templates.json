@@ -1256,7 +1256,7 @@
     "platform": "linux",
     "ports": ["50000/tcp", "22/tcp"],
     "privileged": true,
-    "registry": "gcr.io/ci-30-162810",
+    "registry": "europe-west1-docker.pkg.dev/ci-30-162810/main",
     "restart_policy": "on-failure",
     "title": "DB2 v11.5",
     "type": 1
