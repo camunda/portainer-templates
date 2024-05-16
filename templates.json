@@ -80,7 +80,7 @@
       "22/tcp"
     ],
     "privileged": true,
-    "registry": "gcr.io/ci-30-162810",
+    "registry": "europe-west1-docker.pkg.dev/ci-30-162810/main",
     "command": "/usr/local/bin/start-container.sh",
     "restart_policy": "on-failure"
   },

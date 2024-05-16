@@ -6,7 +6,7 @@ services:
       restart_policy:
         condition: on-failure
     environment: []
-    image: gcr.io/ci-30-162810/postgresql:10.7v0.2.0
+    image: europe-west1-docker.pkg.dev/ci-30-162810/main/postgresql:10.7v0.2.0
     ports:
       - 5432/tcp
       - 22/tcp

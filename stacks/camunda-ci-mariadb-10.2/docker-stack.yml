@@ -7,7 +7,7 @@ services:
         condition: on-failure
     environment:
       - TRANSACTION_ISOLATION_LEVEL=${TRANSACTION_ISOLATION_LEVEL:-REPEATABLE-READ}
-    image: gcr.io/ci-30-162810/mariadb:10.2v0.3.2
+    image: europe-west1-docker.pkg.dev/ci-30-162810/main/mariadb:10.2v0.3.2
     ports:
       - 3306/tcp
       - 22/tcp
