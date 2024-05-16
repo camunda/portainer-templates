@@ -51,6 +51,19 @@
   },
   {
     "categories": ["database"],
+    "description": "SQL server 2022",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2022/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-sqlserver-2022/docker-stack.yml</a><br/>Username: sa<br/>Password: cam_123$<br/>Database: camunda",
+    "platform": "linux",
+    "repository": {
+      "stackfile": "stacks/camunda-ci-sqlserver-2022/docker-stack.yml",
+      "url": "https://github.com/camunda/portainer-templates"
+    },
+    "title": "SQL server 2022",
+    "type": 2
+  },
+  {
+    "categories": ["database"],
     "description": "MySQL 8.0",
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
     "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mysql-8.0/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-mysql-8.0/docker-stack.yml</a><br/>Username: camunda<br/>Password: camunda<br/>Database: process-engine",
