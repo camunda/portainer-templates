@@ -1,7 +1,6 @@
 ---
 services:
   main:
-    command: /usr/local/bin/start-container.sh
     deploy:
       restart_policy:
         condition: on-failure
@@ -9,6 +8,5 @@ services:
     image: europe-west1-docker.pkg.dev/ci-30-162810/main/oracle:23v0.1.0
     ports:
       - 1521/tcp
-      - 22/tcp
     restart: on-failure
 version: '3'
