@@ -5,8 +5,8 @@ services:
       restart_policy:
         condition: on-failure
     environment: []
-    image: europe-west1-docker.pkg.dev/ci-30-162810/main/oracle:23v0.1.0
+    image: camunda/camunda-bpm-platform:tomcat-7.7.0
     ports:
-      - 1521/tcp
+      - 8080/tcp
     restart: on-failure
 version: '3'

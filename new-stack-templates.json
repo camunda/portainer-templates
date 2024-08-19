@@ -1231,5 +1231,18 @@
     },
     "title": "Oracle 19c",
     "type": 2
+  },
+  {
+    "categories": ["database"],
+    "description": "Oracle v23ai Enterprise Edition",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
+    "note": "List: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stack-templates.json\">https://github.com/camunda/portainer-templates/blob/master/stack-templates.json</a><br/>Source: <a href=\"https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-oracle-23/docker-stack.yml\">https://github.com/camunda/portainer-templates/blob/master/stacks/camunda-ci-oracle-23/docker-stack.yml</a>",
+    "platform": "linux",
+    "repository": {
+      "stackfile": "stacks/camunda-ci-oracle-23/docker-stack.yml",
+      "url": "https://github.com/camunda/portainer-templates"
+    },
+    "title": "Oracle 23ai",
+    "type": 2
   }
 ]
