@@ -1,0 +1,11 @@
+---
+version: '3'
+services:
+  main:
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: docker.io/library/postgres:17
+    ports:
+    - 5432/tcp
+    restart: on-failure
