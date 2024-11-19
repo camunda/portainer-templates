@@ -6,6 +6,10 @@ services:
       restart_policy:
         condition: on-failure
     image: docker.io/library/postgres:17.0
+    environment:
+      - POSTGRES_USER=camunda
+      - POSTGRES_PASSWORD=camunda
+      - POSTGRES_DB=process-engine
     ports:
     - 5432/tcp
     restart: on-failure
