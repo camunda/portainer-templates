@@ -10,7 +10,7 @@ services:
       - DATABASE_PORT=${DATABASE_PORT}
       - DATABASE_NAME=${DATABASE_NAME}
       - DATABASE_TYPE=${DATABASE_TYPE}
-    image: registry.camunda.cloud/team-cambpm/weblogic14r12:7.24.1-SNAPSHOT
+    image: registry.camunda.cloud/team-cambpm/weblogic14r12:7.24.1-ee
     ports:
       - 7001/tcp
     restart: on-failure
