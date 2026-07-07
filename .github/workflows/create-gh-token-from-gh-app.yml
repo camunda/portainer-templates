@@ -1,0 +1,31 @@
+# This workflow showcases how to create a GitHub token from a GitHub App
+# by retrieving the App credentials from Vault.
+
+name: Showcase Token Retrieval from GitHub App
+
+on:
+  pull_request:
+
+jobs:
+  create-token: # owner: @camunda/core-features
+    permissions: {} # restrict default Github token permissions since we use a GitHub App token
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    steps:
+      - name: Import Secrets
+        id: vault-secrets
+        uses: hashicorp/vault-action@v3.0.0
+        with:
+          url: ${{ secrets.VAULT_ADDR }}
+          method: approle
+          roleId: ${{ secrets.VAULT_ROLE_ID }}
+          secretId: ${{ secrets.VAULT_SECRET_ID}}
+          secrets: |
+            secret/data/products/qa/ci/github.com/apps/camunda/c7-automation-patch-releases GITHUB_APP_ID;
+            secret/data/products/qa/ci/github.com/apps/camunda/c7-automation-patch-releases GITHUB_APP_SECRET;
+      - name: Generate a GitHub token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ steps.vault-secrets.outputs.GITHUB_APP_ID }}
+          private-key: ${{ steps.vault-secrets.outputs.GITHUB_APP_SECRET }}
